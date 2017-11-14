@@ -1,0 +1,12 @@
+<script src="<?php echo THEME_FOLDER; ?>/js/script.js"></script>
+<script src="<?php echo THEME_FOLDER; ?>/js/validarIngreso.js"></script>
+<script src="<?php echo THEME_FOLDER; ?>/js/gestorArticulos.js"></script>
+<script src="<?php echo THEME_FOLDER; ?>/js/gestorGaleria.js"></script>
+<script src="<?php echo THEME_FOLDER; ?>/js/gestorVideos.js"></script>
+<script src="<?php echo THEME_FOLDER; ?>/js/gestorSlide.js"></script>
+<script src="<?php echo THEME_FOLDER; ?>/js/gestorNoticias.js"></script>
+<script src="<?php echo THEME_FOLDER; ?>/js/gestorGastronomia.js"></script>
+<script src="<?php echo THEME_FOLDER; ?>/js/gestorServicios.js"></script>
+<script src="<?php echo THEME_FOLDER; ?>/js/gestorFestividad.js"></script>
+<script src="<?php echo THEME_FOLDER; ?>/js/gestorMensajes.js"></script>
+<script src="<?php echo THEME_FOLDER; ?>/js/gestorPerfiles.js"></script>
