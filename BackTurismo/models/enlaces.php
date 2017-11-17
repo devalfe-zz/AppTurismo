@@ -4,8 +4,7 @@ class EnlacesModels{
 
 	static public function enlacesModel($enlaces){
 
-		if($enlaces == "inicio" ||
-		   $enlaces == "ingreso" ||
+		if($enlaces == "ingreso" ||
 		   $enlaces == "slide" ||
 		   $enlaces == "articulos" ||
 		   $enlaces == "galeria" ||
@@ -16,7 +15,8 @@ class EnlacesModels{
            $enlaces == "noticias" ||
            $enlaces == "gastronomia" ||
            $enlaces == "servicios" ||
-           $enlaces == "festividad" ||
+		   $enlaces == "festividad" ||
+           $enlaces == "inicio" ||	   
            $enlaces == "salir"){
 
 			$module = "views/modules/".$enlaces.".php";

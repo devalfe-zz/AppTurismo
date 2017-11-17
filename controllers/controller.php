@@ -12,7 +12,7 @@ class C_Controller{
         else {
             $clink = "inicio";
         }
-        $action = M_linkpages::M_f_linkPages($clink);
+        $action = (new  M_linkpages)->M_f_linkPages($clink);
         include $action;
     }
     
@@ -27,4 +27,4 @@ class C_Controller{
         include $script;
     }
 }
-?>
+

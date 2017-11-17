@@ -76,7 +76,7 @@ class MensajesController{
 			$para = $email . ', ';
 			$para .= 'turismo@munimoquegua.gob.pe';
 
-			$título = 'Respuesta a su mensaje';
+			$titulo = 'Respuesta a su mensaje';
 
 			$mensaje ='<html>
 							<head>
@@ -90,7 +90,7 @@ class MensajesController{
 								<p><b>Of. de Turismo MPMN.</b><br>
 								Municipalidad Provincial de Mariscal Nieto<br> 
 								Perú - Moquegua</br> 
-								WhatsApp: +51 XXX XXX XXX</br> 
+								WhatsApp: +51 999 867 170</br> 
 								turismo@munimoquegua.gob.pe</p>
 
 								<h3><a href="http://www.moqueguaturismo.gob.pe" target="blank">www.moqueguaturismo.gob.pe</a></h3>
@@ -100,16 +100,16 @@ class MensajesController{
 								<a href="http://www.twitter.com" target="blank"><img src="https://s23.postimg.org/tcvcacox7/twitter.jpg"></a> 
 								<br>
 
-								<img src="https://moqueguaturismo.gob.pe/BackTurismo/themes/admin/images/logoandro.png">
+								<img src="http://moqueguaturismo.gob.pe/BackTurismo/themes/admin/images/logoandro.png">
 							</body>
 
 					   </html>';
 
 		   $cabeceras  = 'MIME-Version: 1.0' . "\r\n";
 		   $cabeceras .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
-		   $cabeceras .= 'From: <>' . "\r\n";
+		   $cabeceras .= 'From: <turismo@munimoquegua.gob.pe>' . "\r\n";
 
-		   $envio = mail($para, $título, $mensaje, $cabeceras);
+		   $envio = mail($para, $titulo, $mensaje, $cabeceras);
 
 		   if($envio){
 
@@ -151,7 +151,7 @@ class MensajesController{
 				$titulo = $_POST['tituloMasivo'];
 				$mensaje =$_POST['mensajeMasivo'];
 
-				$título = 'Mensaje para todos';
+				$titulo = 'Mensaje para todos';
 
 				$para = $item["email"]; 
 
@@ -184,9 +184,9 @@ class MensajesController{
 
 			   $cabeceras  = 'MIME-Version: 1.0' . "\r\n";
 			   $cabeceras .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
-			   $cabeceras .= 'From: <>' . "\r\n";
+			   $cabeceras .= 'From: <turismo@munimoquegua.gob.pe>' . "\r\n";
 
-			   $envio = mail($para, $título, $mensaje, $cabeceras);
+			   $envio = mail($para, $titulo, $mensaje, $cabeceras);
 
 			   if($envio){
 

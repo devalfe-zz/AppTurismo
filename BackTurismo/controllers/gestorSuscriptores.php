@@ -4,7 +4,7 @@ class SuscriptoresController{
 
 	#MOSTRAR SUSCRIPTORES EN LA VISTA
 	#------------------------------------------------------------
-	public function mostrarSuscriptoresController(){
+	static public function mostrarSuscriptoresController(){
 
 		$respuesta = SuscriptoresModel::mostrarSuscriptoresModel("dev7_suscriptores_turismo");
 
@@ -27,7 +27,7 @@ class SuscriptoresController{
 	#BORRAR Suscriptores
 	#------------------------------------------------------------
 
-	public function borrarSuscriptoresController(){
+	static public function borrarSuscriptoresController(){
 
 		if(isset($_GET["idBorrar"])){
 
@@ -65,19 +65,18 @@ class SuscriptoresController{
 	#IMPRESIÓN SUSCRIPTORES
 	#------------------------------------------------------------
 
-	public function impresionSuscriptoresController($datos){
+	static public function impresionSuscriptoresController($datos){
 
 		$datosController = $datos;
 
-		$respuesta = SuscriptoresModel::mostrarSuscriptoresModel($datosController);
-	
+		$respuesta = (new SuscriptoresModel)->mostrarSuscriptoresModel($datosController);
 		return $respuesta;
 
 	}
 
 	#SUSCRIPTORES SIN REVISAR
 	#------------------------------------------------------------
-	public function suscriptoresSinRevisarController(){
+	static public function suscriptoresSinRevisarController(){
 
 		$respuesta = SuscriptoresModel::suscriptoresSinRevisarModel("dev7_suscriptores_turismo");
 
@@ -99,7 +98,7 @@ class SuscriptoresController{
 
 	#SUSCRIPTORES REVISADOS
 	#------------------------------------------------------------
-	public function suscriptoresRevisadosController($datos){
+	static public function suscriptoresRevisadosController($datos){
 
 		$datosController = $datos;
 

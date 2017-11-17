@@ -108,7 +108,16 @@ INICIO
   margin: auto;
   width: 150px;
   height: 150px;
-  text-align: center; }
+  text-align: center;
+  border-radius: 50%;
+  transition: all 1s ease;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22); }
+
+.botonesInicio:hover div {
+  -webkit-transform: rotateY(360deg);
+  transform: rotateY(360deg);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d; }
 
 .botonesInicio div span {
   font-size: 40px;
@@ -116,7 +125,7 @@ INICIO
   color: white; }
 
 .botonesInicio div p {
-  font-size: 15px;
+  font-size: 20px;
   color: white; }
 
 /*=====  Fin de INICIO  ======*/
@@ -1819,6 +1828,8 @@ Tablets
 Phones
 **********************************************/
 @media (max-width: 767px) {
+  .botonesInicio div p {
+    font-size: 12px; }
   /*Fecha y hora*/
   #time {
     font-size: 10px;

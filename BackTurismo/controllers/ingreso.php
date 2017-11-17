@@ -15,9 +15,10 @@ class Ingreso{
 				                     "password"=>$encriptar);
 
 				$respuesta = (new IngresoModels)->ingresoModel($datosController, "dev7_user_turismo");
-               
+                print_r($respuesta);
 				$intentos = $respuesta["intentos"];
-                
+                $password = $respuesta["password"];
+                echo "encriptar:".$encriptar;
 				$usuarioActual = $_POST["usuarioIngreso"];
 				$maximoIntentos = 2;
                 if(isset($_POST["g-recaptcha-response"])){

@@ -14,7 +14,7 @@
     <meta name="geo.position" content="-9.189967;-75.015152" />
     <meta name="ICBM" content="-9.189967, -75.015152" />
     <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
     <link rel="stylesheet" href="css/owl.carousel.min.css" />
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/animate.min.css" />

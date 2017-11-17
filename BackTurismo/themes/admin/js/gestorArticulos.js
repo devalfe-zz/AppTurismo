@@ -252,11 +252,10 @@
      rutaImageni = $("#" + idArticulo).children("div").children("#imgi").attr("src");
      rutaImagenii = $("#" + idArticulo).children("div").children("#imgii").attr("src");
      titulo = $("#" + idArticulo).children("h1").html();
-     direccion = $("#" + idArticulo).children("h4").html();
      introduccion = $("#" + idArticulo).children("p").html();
      contenido = $("#" + idArticulo).children("input").val();
 
-     $("#" + idArticulo).html('<form method="post" enctype="multipart/form-data"><span><input style="width:10%; padding:5px 0; margin-top:4px" type="submit" class="btn btn-primary pull-right" value="Guardar"></span> <div class="imgMostrar"><div id="editarImagen"><input style="display:none" type="file" id="subirNuevaFoto" class="btn btn-default"><div id="nuevaFoto"><span class="fa fa-times cambiarImagen"></span><img id="img" src="' + rutaImagen + '" class="img-thumbnail"></div></div></span><div id="editarImageni"><input style="display:none" type="file" id="subirNuevaFotoi" class="btn btn-default"><div id="nuevaFotoi"><span class="fa fa-times cambiarImageni"></span><img id="imgi" src="' + rutaImageni + '" class="img-thumbnail"></div></div></span><div id="editarImagenii"><input style="display:none" type="file" id="subirNuevaFotoii" class="btn btn-default"><div id="nuevaFotoii"><span class="fa fa-times cambiarImagenii"></span><img id="imgii" src="' + rutaImagenii + '" class="img-thumbnail"></div></div></div><input type="text" value="' + titulo + '" name="editarTitulo"><input type="text" value="' + direccion + '" name="editarDireccion"><textarea cols="30" rows="5" name="editarIntroduccion">' + introduccion + '</textarea><textarea name="editarContenido" id="editarContenido" cols="30" rows="10">' + contenido + '</textarea><input type="hidden" value="' + idArticulo + '" name="id"><input type="hidden" value="' + rutaImagen + '" name="fotoAntigua0"><input type="hidden" value="' + rutaImageni + '" name="fotoAntigua1"><input type="hidden" value="' + rutaImagenii + '" name="fotoAntigua2"><hr></form>');
+     $("#" + idArticulo).html('<form method="post" enctype="multipart/form-data"><span><input style="width:10%; padding:5px 0; margin-top:4px" type="submit" class="btn btn-primary pull-right" value="Guardar"></span> <div class="imgMostrar"><div id="editarImagen"><input style="display:none" type="file" id="subirNuevaFoto" class="btn btn-default"><div id="nuevaFoto"><span class="fa fa-times cambiarImagen"></span><img id="img" src="' + rutaImagen + '" class="img-thumbnail"></div></div></span><div id="editarImageni"><input style="display:none" type="file" id="subirNuevaFotoi" class="btn btn-default"><div id="nuevaFotoi"><span class="fa fa-times cambiarImageni"></span><img id="imgi" src="' + rutaImageni + '" class="img-thumbnail"></div></div></span><div id="editarImagenii"><input style="display:none" type="file" id="subirNuevaFotoii" class="btn btn-default"><div id="nuevaFotoii"><span class="fa fa-times cambiarImagenii"></span><img id="imgii" src="' + rutaImagenii + '" class="img-thumbnail"></div></div></div><input type="text" value="' + titulo + '" name="editarTitulo"><textarea cols="30" rows="5" name="editarIntroduccion">' + introduccion + '</textarea><textarea name="editarContenido" id="editarContenido" cols="30" rows="10">' + contenido + '</textarea><input type="hidden" value="' + idArticulo + '" name="id"><input type="hidden" value="' + rutaImagen + '" name="fotoAntigua0"><input type="hidden" value="' + rutaImageni + '" name="fotoAntigua1"><input type="hidden" value="' + rutaImagenii + '" name="fotoAntigua2"><hr></form>');
 
      $(".cambiarImagen").click(function () {
 
@@ -560,49 +559,49 @@
 
      $("#guardarOrdenArticulos").click(function () {
 
-         $("#ordenarArticulos").show();
-         $("#guardarOrdenArticulos").hide();
+     $("#ordenarArticulos").show();
+     $("#guardarOrdenArticulos").hide();
 
-         for (var i = 0; i < $("#editarArticulo li").length; i++) {
+     for (var i = 0; i < $("#editarArticulo li").length; i++) {
 
-             var actualizarOrden = new FormData();
-             actualizarOrden.append("actualizarOrdenArticulos", almacenarOrdenId[i]);
-             actualizarOrden.append("actualizarOrdenItem", ordenItem[i]);
+         var actualizarOrden = new FormData();
+         actualizarOrden.append("actualizarOrdenArticulos", almacenarOrdenId[i]);
+         actualizarOrden.append("actualizarOrdenItem", ordenItem[i]);
 
-             $.ajax({
+         $.ajax({
 
-                 url: "views/ajax/gestorArticulos.php",
-                 method: "POST",
-                 data: actualizarOrden,
-                 cache: false,
-                 contentType: false,
-                 processData: false,
-                 success: function (respuesta) {
+             url: "views/ajax/gestorArticulos.php",
+             method: "POST",
+             data: actualizarOrden,
+             cache: false,
+             contentType: false,
+             processData: false,
+             success: function (respuesta) {
 
-                     $("#editarArticulo").html(respuesta);
+                 $("#editarArticulo").html(respuesta);
 
-                     swal({
-                             title: "¡OK!",
-                             text: "¡El orden se ha actualizado correctamente!",
-                             type: "success",
-                             confirmButtonText: "Cerrar",
-                             closeOnConfirm: false
-                         },
-                         function (isConfirm) {
-                             if (isConfirm) {
-                                 window.location = "articulos";
-                             }
-                         });
-
-
-                 }
-
-             })
+                 swal({
+                         title: "¡OK!",
+                         text: "¡El orden se ha actualizado correctamente!",
+                         type: "success",
+                         confirmButtonText: "Cerrar",
+                         closeOnConfirm: false
+                     },
+                     function (isConfirm) {
+                         if (isConfirm) {
+                             window.location = "articulos";
+                         }
+                     });
 
 
+             }
 
-         }
+         })
 
-     })
+
+
+     }
+
+ })
 
  })

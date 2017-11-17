@@ -6,10 +6,10 @@ class IngresoModels{
 
 	static public function ingresoModel($datosModel, $tabla){
 
-		$stmt = (new Conexion)->conectar()->prepare("SELECT id, usuario, password, email, photo, rol, intentos FROM $tabla WHERE  usuario = :usuario AND password = :password");
+		$stmt = (new Conexion)->conectar()->prepare("SELECT id, usuario, password, email, photo, rol, intentos FROM $tabla WHERE usuario = :usuario");
 
 		$stmt -> bindParam(":usuario", $datosModel["usuario"], PDO::PARAM_STR);
-		$stmt -> bindParam(":password", $datosModel["password"], PDO::PARAM_STR);
+		
 		$stmt -> execute();
 
 		return $stmt -> fetch();

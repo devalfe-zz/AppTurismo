@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="<?php echo THEME_FOLDER; ?>/css/jquery-ui.min.css">
     <link rel="stylesheet" href="<?php echo THEME_FOLDER; ?>/css/sweetalert.css">
     <link rel="stylesheet" href="<?php echo THEME_FOLDER; ?>/css/cssFancybox/jquery.fancybox.css">
+    <link rel="stylesheet" href="<?php echo THEME_FOLDER; ?>/css/jquery-ui.min.css">
 
     <script src="<?php echo THEME_FOLDER; ?>/js/jquery-2.2.0.min.js"></script>
     <script src="<?php echo THEME_FOLDER; ?>/js/bootstrap.min.js"></script>
