@@ -10,4 +10,11 @@ class AtractivosModels{
 		$stmt -> close();
 
     }
+
+    static public function serviceAtractivosModels ($api){
+        $url ="http://devalfe.net.kemari.co/apptotem/public/api/v1/".$api;
+        $json = file_get_contents($url);
+        $data = json_decode($json,true);
+        return $data;
+    }
 }

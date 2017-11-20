@@ -10,7 +10,7 @@ class C_Controller{
             $clink = $_GET["action"];
         }
         else {
-            $clink = "inicio";
+            $clink = "index";
         }
         $action = (new  M_linkpages)->M_f_linkPages($clink);
         include $action;
@@ -21,7 +21,7 @@ class C_Controller{
             $cScript = $_GET["action"];
         }
         else {
-            $cScript = "inicio";
+            $cScript = "index";
         }
         $script = (new M_linkpages) -> M_f_scriptPages($cScript);
         include $script;

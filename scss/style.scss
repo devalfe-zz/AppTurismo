@@ -3136,10 +3136,16 @@ header {
     display: block;
 }
 
-.card {
+.card-01 {
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.3);
     border: none;
     margin-bottom: 30px;
+    border-radius: 2rem;
+}
+
+.card-01 img {
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
 }
 
 .card-01 .card-body {
@@ -3191,4 +3197,8 @@ header {
     color: #fff;
     font-size: 22px;
     margin-right: 18px;
+}
+
+.card-programa {
+    height: 35rem;
 }
