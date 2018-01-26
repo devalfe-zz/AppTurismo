@@ -1,11 +1,6 @@
 <section class="bienvenidos">
-
-
-
     <?php
-
-                include "views/templates/header.php";
-
+               include "views/templates/header.php";
             ?>
 
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -144,11 +139,11 @@ el rumor misterioso del tiempo que pasó. Un cielo de cobalto. Y una ciudad dorm
 
 </section>
 
-<div id="myModal" class="modal fade" role="dialog">
+<!-- <div id="myModal" class="modal fade" role="dialog">
 
   <div class="modal-dialog modal-lg">
 
-    <!-- Modal content-->
+    
 
     <div class="modal-content">
 
@@ -183,7 +178,7 @@ el rumor misterioso del tiempo que pasó. Un cielo de cobalto. Y una ciudad dorm
   </div>
 
 </div>
-
+ -->
 <section class="capital py-2" id="capi" tabindex="-1">
 
     <div class="container">
@@ -220,17 +215,17 @@ el rumor misterioso del tiempo que pasó. Un cielo de cobalto. Y una ciudad dorm
 
             </div>
 
-            <div class="row col-12">
+            <!-- <div class="row col-12"> -->
 
                 
     
              
-         
+         <!-- 
     <section class="noticia py-2">
 
         <div class="container">
 
-            <div class="row">
+            <div class="row"> -->
 
                 <!-- <div class="carousel  col-md-12 col-lg-9" id="noticias">
 
@@ -300,7 +295,7 @@ Donde la municipalidad viene impulsando la sostenibilidad y la conectividad cont
 
                     </ul> -->
 
-                <div class="owl-carousel">
+               <!--  <div class="owl-carousel">
 
                         <a data-toggle="modal" data-target="#exampleModal1" >
 
@@ -310,14 +305,14 @@ Donde la municipalidad viene impulsando la sostenibilidad y la conectividad cont
 
                         <a data-toggle="modal" data-target="#exampleModal3" ><img class="img-thumbnail" data-toggle="modal" data-target="#exampleModal" src="images/santaok.jpg" alt="santa3"></a>
 
-                </div>
+                </div> -->
 
                 <!-- Button trigger modal -->
 
 
 
 <!-- Modal -->
-
+<!-- 
 <div class="modal fade bd-example-modal-lg" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModal3Label" aria-hidden="true">
 
   <div class="modal-dialog" role="document">
@@ -330,11 +325,11 @@ Donde la municipalidad viene impulsando la sostenibilidad y la conectividad cont
 
   </div>
 
-</div>
+</div> -->
 
 <!-- Modal -->
 
-<div class="modal fade bd-example-modal-lg" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModal3Label" aria-hidden="true">
+<!-- <div class="modal fade bd-example-modal-lg" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModal3Label" aria-hidden="true">
 
   <div class="modal-dialog" role="document">
 
@@ -346,10 +341,10 @@ Donde la municipalidad viene impulsando la sostenibilidad y la conectividad cont
 
   </div>
 
-</div>
+</div> -->
 
 <!-- Modal -->
-
+<!-- 
 <div class="modal fade bd-example-modal-lg" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModal3Label" aria-hidden="true">
 
   <div class="modal-dialog" role="document">
@@ -370,7 +365,7 @@ Donde la municipalidad viene impulsando la sostenibilidad y la conectividad cont
 
         </div>
 
-    </section>
+    </section> -->
 
   
 
@@ -385,7 +380,7 @@ Donde la municipalidad viene impulsando la sostenibilidad y la conectividad cont
     </div>
 
 </section>
-   <?php  include "views/templates/programa.php"?>
+   <?php // include "views/templates/programa.php"?>
 <section class="conozca-moquegua">
 
     <div class="container">
@@ -510,11 +505,11 @@ Donde la municipalidad viene impulsando la sostenibilidad y la conectividad cont
 
                 <img src="images/sec1.svg" alt="Transporte">
 
-                <h3><a href="index.php?action=transporte">Transportes</a></h3>
+                <h3><a href="http://moqueguaturismo.gob.pe/tax/">Transportes</a></h3>
 
                 <p class="hidden-sm-down">ofrecemos una serie de opciones de transporte para satisfacer el gusto y presupuesto de cada viajero.</p>
 
-                <a href="index.php?action=transporte" class="btn btn-secondary hidden-sm-down">Mas Informacion</a>
+                <a href="http://moqueguaturismo.gob.pe/tax/" class="btn btn-secondary hidden-sm-down">Mas Informacion</a>
 
             </article>
 
@@ -522,11 +517,11 @@ Donde la municipalidad viene impulsando la sostenibilidad y la conectividad cont
 
                 <img src="images/sec2.svg" alt="Alojamiento">
 
-                <h3><a href="index.php?action=alojamiento">Alojamientos</a></h3>
+                <h3><a href="http://moqueguaturismo.gob.pe/hosp/">Alojamientos</a></h3>
 
                 <p class="hidden-sm-down">La Ciudad de Moquegua cuenta con lugares para alojarse que atienda sus necesidades.</p>
 
-                <a href="index.php?action=alojamiento" class="btn btn-secondary hidden-sm-down">Mas Informacion</a>
+                <a href="http://moqueguaturismo.gob.pe/hosp/" class="btn btn-secondary hidden-sm-down">Mas Informacion</a>
 
             </article>
 
@@ -534,11 +529,11 @@ Donde la municipalidad viene impulsando la sostenibilidad y la conectividad cont
 
                 <img src="images/sec3.svg" alt="Restaurantes">
 
-                <h3><a href="index.php?action=restaurante">Restaurantes</a></h3>
+                <h3><a href="http://moqueguaturismo.gob.pe/rest/">Restaurantes</a></h3>
 
                 <p class="hidden-sm-down">Deléitate con nuestras variadas cartas que destacan ingredientes típicos de la región. </p>
 
-                <a href="index.php?action=restaurante" class="btn btn-secondary hidden-sm-down">Mas Informacion</a>
+                <a href="http://moqueguaturismo.gob.pe/rest/" class="btn btn-secondary hidden-sm-down">Mas Informacion</a>
 
             </article>
 

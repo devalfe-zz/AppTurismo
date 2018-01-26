@@ -21,8 +21,7 @@ class ProgramaController{
                             <hr/>
                             <p class="card-text text-gray-dark">Lugar: '.$value['field_lugar_programa'].'</p>
                             <p class="card-text text-gray-dark">Fecha: '.$value['field_fecha_programa'].'</p>
-                            <p class="card-text text-gray-dark">Hora: '.$value['field_fecha_programa_1'].'</p>
-                        
+                            <p class="card-text text-gray-dark">Hora: '.$value['field_fecha_programa_1'].'</p>         
                         </div>
                     </div>
                 </article>

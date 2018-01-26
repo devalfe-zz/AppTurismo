@@ -16,3 +16,12 @@ yarn-error.log
 .env
 .vscode
 *.sql
+bundle.js
+package.json
+package-lock.json
+index.js
+webpack.config.js
+fondo-grande.jpg
+fondo-principal.jpg
+seccion-grande.jpg
+seccion.jpg

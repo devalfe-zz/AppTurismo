@@ -44,12 +44,12 @@ ARTÍCULOS ADMINISTRABLE
             <hr>
             <!--==== EDITAR ARTÍCULO  ====-->
             <ul id="editarArticulo">
-                <?php
-            $mostrarArticulo = new GestorArticulos();
-            $mostrarArticulo -> mostrarArticulosController();
-            $mostrarArticulo -> borrarArticuloController();
-            $mostrarArticulo -> editarArticuloController();
-        ?>
+            <?php
+                $mostrarArticulo = new GestorArticulos();
+                $mostrarArticulo -> mostrarArticulosController();
+                $mostrarArticulo -> borrarArticuloController();
+                $mostrarArticulo -> editarArticuloController();
+            ?>
             </ul>
             <button id="ordenarArticulos" class="btn btn-warning pull-right" style="margin:10px 30px">Atractivos turísticos</button>
             <button id="guardarOrdenArticulos" class="btn btn-primary pull-right" style="display:none; margin:10px 30px">Guardar Orden Atractivos</button>

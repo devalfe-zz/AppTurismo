@@ -1,8 +1,17 @@
+<script src="js/bundle.js"></script>
 <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/owl.carousel.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#list').click(function(event){event.preventDefault();
+    $('#products .items').addClass('list-group-item col-lg-12');});
+    $('#grid').click(function(event){event.preventDefault();
+    $('#products .items').removeClass('list-group-item col-lg-12');
+    $('#products .items').addClass('grid-group-item');});
+});
+</script>
 <script type="text/javascript">
     $('.owl-carousel').owlCarousel({
         loop: true,

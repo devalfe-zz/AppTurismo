@@ -14,7 +14,7 @@
                 <div class="col-md-4 contac-us">
                     <h4>Contacto</h4>
                     <ul>
-                        <li><i class="fa fa-home" aria-hidden="true"></i> Dirección: Calle Ancash N° 275 </li>
+                        <li><i class="fa fa-home" aria-hidden="true"></i> Dirección: Calle Ayacucho Cdra S/N - Centro cultural Santo Domingo</li>
                         <li><i class="fa fa-phone" aria-hidden="true"></i> (053) 461191 - (053) 462430</li>
                         <li><i class="fa fa-envelope-o" aria-hidden="true"></i> munimoq@munimoquegua.gob.pe</li>
                     </ul>
@@ -25,7 +25,7 @@
     <footer class="pie-pagina py-2" role="contentinfo">
         <div class="container">
             <div class="col-sm-12 social">
-                <a href="#"><i class="fa fa-facebook"  aria-hidden="true"></i></a> <span class="divider-2"></span>
+                <a href="https://es-la.facebook.com/turismomoqueguaMPMN/"><i class="fa fa-facebook"  aria-hidden="true"></i></a> <span class="divider-2"></span>
                 <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a> <span class="divider-2"></span>
                 <a href="#"><i class="fa fa-google-plus"  aria-hidden="true"></i></a>
             </div>
