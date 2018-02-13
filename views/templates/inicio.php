@@ -138,6 +138,25 @@ el rumor misterioso del tiempo que pasó. Un cielo de cobalto. Y una ciudad dorm
         </div>
 
 </section>
+ <div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-lg"> 
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title"><a href="#">Carnaveles 2018</a></h4>
+      </div>
+      <div class="modal-body">
+        <a href="#">Pasacalle de Comparsas
+              <iframe src="http://docs.google.com/gview?url=http://www.moqueguaturismo.gob.pe/programa/carnaval8.pdf&embedded=true" style="width:770px; height:500px;" frameborder="0"></iframe> 
+        </a>
+      </div>       
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+ 
 
 <!-- <div id="myModal" class="modal fade" role="dialog">
 
