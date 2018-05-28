@@ -118,25 +118,16 @@ COLUMNA BOTONERA
     <nav id="botonera" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 collapse navbar-collapse text-center">
         <ul class="nav navbar">
             <li><a href="inicio">Inicio <span class="glyphicon glyphicon-new-window"></span></a></li>
-
             <li><a href="slide">Slide <span class="glyphicon glyphicon-new-window"></span></a></li>
-
             <li><a href="articulos">Atractivos Turisticos <span class="glyphicon glyphicon-new-window"></span></a></li>
-
             <li><a href="galeria">Imágenes <span class="glyphicon glyphicon-new-window"></span></a></li>
-
             <li><a href="videos">Videos <span class="glyphicon glyphicon-new-window"></span></a></li>
-
             <li><a href="noticias">Noticias <span class="glyphicon glyphicon-new-window"></span></a></li>
-
             <li><a href="gastronomia">Gastronomia <span class="glyphicon glyphicon-new-window"></span></a></li>
-
-            <li><a href="servicios">Servicios <span class="glyphicon glyphicon-new-window"></span></a></li>
-
+            <li><a href="servicios">Servicios Turisticos<span class="glyphicon glyphicon-new-window"></span></a></li>
             <li><a href="festividad">Festividad <span class="glyphicon glyphicon-new-window"></span></a></li>
-
+            <li><a href="festividad">Artesania <span class="glyphicon glyphicon-new-window"></span></a></li          
             <li><a href="suscriptores">Suscriptores <span class="glyphicon glyphicon-new-window">
-
             <li><a href="../index.php" target="_black"><button type="button" class="btn btn-primary text-xs-center">Ver Web Turismo</button></a>
 
             </li>

@@ -19,7 +19,6 @@ yarn-error.log
 bundle.js
 package.json
 package-lock.json
-index.js
 webpack.config.js
 fondo-grande.jpg
 fondo-principal.jpg
@@ -27,3 +26,10 @@ seccion-grande.jpg
 seccion.jpg
 style.css.map
 bundle.js.map
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN
+sourcemaps
+BackTurismo
+index.js

@@ -143,11 +143,11 @@ el rumor misterioso del tiempo que pasó. Un cielo de cobalto. Y una ciudad dorm
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title"><a href="#">Carnaveles 2018</a></h4>
+        <h4 class="modal-title"><a href="#">VENDIMIA 2018</a></h4>
       </div>
       <div class="modal-body">
-        <a href="#">Pasacalle de Comparsas
-              <iframe src="http://docs.google.com/gview?url=http://www.moqueguaturismo.gob.pe/programa/carnaval8.pdf&embedded=true" style="width:770px; height:500px;" frameborder="0"></iframe> 
+        <a href="#">
+              <iframe src="http://docs.google.com/gview?url=http://www.moqueguaturismo.gob.pe/programa/PROGRAMAVENDIMIA2018.pdf&embedded=true" style="width:770px; height:500px;" frameborder="0"></iframe> 
         </a>
       </div>       
       <div class="modal-footer">
@@ -226,7 +226,7 @@ el rumor misterioso del tiempo que pasó. Un cielo de cobalto. Y una ciudad dorm
 
                     <video class="embed-responsive-item" controls="true">
 
-                        <source src="videos/spot.mp4" type="video/mp4"></source>
+                        <source src="videos/CARNAVAL.mp4" type="video/mp4"></source>
 
                     </video>
 

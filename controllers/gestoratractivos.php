@@ -39,9 +39,11 @@ class Atractivos {
     }
 
     static public function serviceAtractivosController(){
-        $api="AtractivosApi";
+        $api="atractivo";
         //$var="grid";
         $resul = (new AtractivosModels)->serviceAtractivosModels($api);
+        $lugares = $resul['data'];       
+        //var_dump ($lugares);
         echo '<div class="container">
                 <div class=" well-lg">
                     <strong>Display</strong>
@@ -52,7 +54,8 @@ class Atractivos {
                     </div>
                 </div>
                 <div id="products" class="row list-group d-flex" style="float-right">';
-                    foreach($resul as $row => $item){     
+
+                    foreach($lugares as $row => $item){     
                     echo'<div class="items col-4 grid-group-item">
                         <div class="thumbnail card-01 col-12">
                             <img class="group list-group-image d-block img-fluid" src="http://moqueguaturismo.gob.pe/'.$item["foto_url"].'" alt="'.$item["titulo"].'" />
