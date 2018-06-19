@@ -1,4 +1,6 @@
 <?php
+define ('PUBLIC_','/public/dist');
+
 require_once "models/model.php";
 require_once "models/gestoratractivos.php";
 require_once "models/gestorGaleria.php";

@@ -1,8 +1,8 @@
-<script src="js/bundle.js"></script>
-<script src="js/vendor/modernizr-2.8.3.min.js"></script>
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
+<script src="<?php echo PUBLIC_; ?>/js/app.js"></script>
+<script src="<?php echo PUBLIC_; ?>/js/vendor/modernizr-2.8.3.min.js"></script>
+<script src="<?php echo PUBLIC_; ?>/js/jquery.min.js"></script>
+<script src="<?php echo PUBLIC_; ?>/js/bootstrap.min.js"></script>
+<script src="<?php echo PUBLIC_; ?>/js/owl.carousel.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
     $('#list').click(function(event){event.preventDefault();
@@ -83,10 +83,10 @@ $(document).ready(function() {
     });
 </script>
 
-<script src="js/wow.min.js"></script>
-<script src="js/smooth-scroll.min.js"></script>
-<script src="js/jquery.backstretch.min.js"></script>
-<script src="js/swiper.min.js"></script>
-<script src="js/swiper.jquery.min.js"></script>
-<script src="js/ekko-lightbox.min.js"></script>
-<script src="js/sitio.js"></script>
+<script src="<?php echo PUBLIC_; ?>/js/wow.min.js"></script>
+<script src="<?php echo PUBLIC_; ?>/js/smooth-scroll.min.js"></script>
+<script src="<?php echo PUBLIC_; ?>/js/jquery.backstretch.min.js"></script>
+<script src="<?php echo PUBLIC_; ?>/js/swiper.min.js"></script>
+<script src="<?php echo PUBLIC_; ?>/js/swiper.jquery.min.js"></script>
+<script src="<?php echo PUBLIC_; ?>/js/ekko-lightbox.min.js"></script>
+<script src="<?php echo PUBLIC_; ?>/js/sitio.js"></script>

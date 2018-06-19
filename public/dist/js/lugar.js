@@ -1,6 +1,6 @@
 function initialize() {
     var marcadores = [
-        ['<h5>Plaza de Armas</h5><p>Se ubica en el centro de la Zona monumental, inscrita en el damero típico de la estructura urbana española implantada en la época de la colonia, rodeada por enormes y antiguos ficus y casonas como: la Casa Tradicional, la antigua Cárcel Pública, Casa Chocano, entre otras que por su gran valor arquitectónico merecen ser visitadas.</p><img class="d-block img-fluid " src="https://firebasestorage.googleapis.com/v0/b/toursapp-78bac.appspot.com/o/fotos%2Fplaza-de-armas-de-moquegua.jpg?alt=media&token=f66f5f88-f31a-4438-814e-504c9afbe867" alt="Atractivo">', -17.193794, -70.934612],
+        ['<h4>Plaza de Armas</h4><p>Se ubica en el centro de la Zona monumental, inscrita en el damero típico de la estructura urbana española implantada en la época de la colonia, rodeada por enormes y antiguos ficus y casonas como: la Casa Tradicional, la antigua Cárcel Pública, Casa Chocano, entre otras que por su gran valor arquitectónico merecen ser visitadas.</p><img class="d-block img-fluid " src="https://firebasestorage.googleapis.com/v0/b/toursapp-78bac.appspot.com/o/fotos%2Fplaza-de-armas-de-moquegua.jpg?alt=media&token=f66f5f88-f31a-4438-814e-504c9afbe867" alt="Atractivo">', -17.193794, -70.934612],
         ['<h5>Catedral Santo Domingo Urna de Santa Fortunata</h5>', -17.193972, -70.933673],
         ['<h5>Muro Matriz</h5>', -17.193480, -70.934754],
         ['<h5>Museo Contisuyo</h5>', -17.193251, -70.934698],
@@ -34,8 +34,8 @@ function initialize() {
             map: map,
             icon: 'images/mapic.png'
         });
-        google.maps.event.addListener(marker, 'click', (function (marker, i) {
-            return function () {
+        google.maps.event.addListener(marker, 'click', (function(marker, i) {
+            return function() {
                 infowindow.setContent(marcadores[i][0]);
 
                 infowindow.open(map, marker);

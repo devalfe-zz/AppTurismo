@@ -21,7 +21,7 @@
 
                 <div class="carousel-item active">
 
-                    <img class="figure" src="images/fondo-principalx.jpg" data-color="lightblue" alt="slide1">
+                    <img class="figure" src="<?php echo PUBLIC_; ?>/images/fondo-principalx.jpg" data-color="lightblue" alt="slide1">
 
                     <div class="carousel-caption carousel-style-left">
 
@@ -31,7 +31,7 @@
 
                                 <a href="index.html" class="logo-moque hidden-xs-down hidden-md-down">
 
-                                    <img src="images/moque.svg" alt="logomoquegua" class="wow fadeInUp" data-wow-duration="2s" data-wow-delay=".5s">
+                                    <img src="<?php echo PUBLIC_; ?>/images/moque.svg" alt="logomoquegua" class="wow fadeInUp" data-wow-duration="2s" data-wow-delay=".5s">
 
                                 </a>
 
@@ -51,7 +51,7 @@
 
                 <div class="carousel-item">
 
-                    <img class="figure" src="images/fondo-principalxx.jpg" data-color="firebrick" alt="slide2">
+                    <img class="figure" src="<?php echo PUBLIC_; ?>/images/fondo-principalxx.jpg" data-color="firebrick" alt="slide2">
 
                     <div class="carousel-caption carousel-style-center">
 
@@ -61,7 +61,7 @@
 
                                 <a href="index.php" class="logo-moque hidden-xs-down hidden-md-down">
 
-                                    <img src="images/moque.svg" alt="logomoquegua" class="wow fadeInUp" data-wow-duration="2s" data-wow-delay=".5s">
+                                    <img src="<?php echo PUBLIC_; ?>/images/moque.svg" alt="logomoquegua" class="wow fadeInUp" data-wow-duration="2s" data-wow-delay=".5s">
 
                                 </a>
 
@@ -83,7 +83,7 @@ entusiasmado te envía en alas de raudo viento quien más amor te consagra. Sean
 
                 <div class="carousel-item">
 
-                    <img class="figure" src="images/fondo-principalxxx.jpg" data-color="violet" alt="slide3">
+                    <img class="figure" src="<?php echo PUBLIC_; ?>/images/fondo-principalxxx.jpg" data-color="violet" alt="slide3">
 
                     <div class="carousel-caption carousel-style-right">
 
@@ -93,7 +93,7 @@ entusiasmado te envía en alas de raudo viento quien más amor te consagra. Sean
 
                                 <a href="index.html" class="logo-moque hidden-xs-down hidden-md-down">
 
-                                    <img src="images/moque.svg" alt="logomoquegua" class="wow fadeInUp" data-wow-duration="2s" data-wow-delay=".5s">
+                                    <img src="<?php echo PUBLIC_; ?>/images/moque.svg" alt="logomoquegua" class="wow fadeInUp" data-wow-duration="2s" data-wow-delay=".5s">
 
                                 </a>
 
@@ -456,7 +456,7 @@ Donde la municipalidad viene impulsando la sostenibilidad y la conectividad cont
 
             <div class="hidden-md-down flex-middle col-lg-4">
 
-                <img src="images/icentro.svg" alt="danza" class="wow flip">
+                <img src="<?php echo PUBLIC_; ?>/images/icentro.svg" alt="danza" class="wow flip">
 
             </div>
 
@@ -496,7 +496,7 @@ Donde la municipalidad viene impulsando la sostenibilidad y la conectividad cont
 
                     <div class="eleccion">
 
-                        <a href="fechas.html"><h4>CALENDARIO TURÍSTICO</h4>
+                        <a href="fechas.php"><h4>CALENDARIO TURÍSTICO</h4>
 
                             <p class="hidden-sm-down">Las principales festividades de la región</p></a>
 
@@ -522,7 +522,7 @@ Donde la municipalidad viene impulsando la sostenibilidad y la conectividad cont
 
             <article class="col-md-3 wow bounceInLeft" data-wow-delay=".3s">
 
-                <img src="images/sec1.svg" alt="Transporte">
+                <img src="<?php echo PUBLIC_; ?>/images/sec1.svg" alt="Transporte">
 
                 <h3><a href="http://moqueguaturismo.gob.pe/tax/">Transportes</a></h3>
 
@@ -534,7 +534,7 @@ Donde la municipalidad viene impulsando la sostenibilidad y la conectividad cont
 
             <article class="col-md-3 wow bounceInUp" data-wow-delay=".6s">
 
-                <img src="images/sec2.svg" alt="Alojamiento">
+                <img src="<?php echo PUBLIC_; ?>/images/sec2.svg" alt="Alojamiento">
 
                 <h3><a href="http://moqueguaturismo.gob.pe/hosp/">Alojamientos</a></h3>
 
@@ -546,7 +546,7 @@ Donde la municipalidad viene impulsando la sostenibilidad y la conectividad cont
 
             <article class="col-md-3 wow bounceInRight" data-wow-delay="1s">
 
-                <img src="images/sec3.svg" alt="Restaurantes">
+                <img src="<?php echo PUBLIC_; ?>/images/sec3.svg" alt="Restaurantes">
 
                 <h3><a href="http://moqueguaturismo.gob.pe/rest/">Restaurantes</a></h3>
 
@@ -558,7 +558,7 @@ Donde la municipalidad viene impulsando la sostenibilidad y la conectividad cont
 
             <article class="col-md-3 wow bounceInDown" data-wow-delay="1.4s">
 
-                <img src="images/sec4.svg" alt="Hospitales">
+                <img src="<?php echo PUBLIC_; ?>/images/sec4.svg" alt="Hospitales">
 
                 <h3><a href="index.php?action=agencia">Agencias de viajes</a></h3>
 
@@ -586,31 +586,31 @@ Donde la municipalidad viene impulsando la sostenibilidad y la conectividad cont
 
             <a href="index.php?action=festividades"><h4>FESTIVIDADES</h4>
 
-				<img src="images/proyecto1.jpg" alt="Festividades"></a>
+				<img src="<?php echo PUBLIC_; ?>/images/proyecto1.jpg" alt="Festividades"></a>
 
             <a href="index.php?action=folclore"><h4>FOLCLORE</h4>
 
-				<img src="images/proyecto3.jpg" alt="Folclore"></a>
+				<img src="<?php echo PUBLIC_; ?>/images/proyecto3.jpg" alt="Folclore"></a>
 
             <a href="index.php?action=naturaleza"><h4>NATURALEZA</h4>
 
-				<img src="images/proyecto2.jpg" alt="Naturaleza"></a>
+				<img src="<?php echo PUBLIC_; ?>/images/proyecto2.jpg" alt="Naturaleza"></a>
 
             <a href="index.php?action=arquitectura"><h4>ARQUITECTURA</h4>
 
-				<img src="images/proyecto1.jpg" alt="Arquitectura"></a>
+				<img src="<?php echo PUBLIC_; ?>/images/proyecto1.jpg" alt="Arquitectura"></a>
 
             <a href="index.php?action=gastronomia"><h4>GASTRONOMÍA</h4>
 
-				<img src="images/proyecto3.jpg" alt="Gastronomía"></a>
+				<img src="<?php echo PUBLIC_; ?>/images/proyecto3.jpg" alt="Gastronomía"></a>
 
             <a href="index.php?action=religiosidad"><h4>RELIGIOSIDAD Y MISTICISMO</h4>
 
-                <img src="images/proyecto4.jpg" alt="Religiosidad y Misticismo"></a>
+                <img src="<?php echo PUBLIC_; ?>/images/proyecto4.jpg" alt="Religiosidad y Misticismo"></a>
 
             <a href="index.php?action=aventura"><h4>AVENTURA</h4>
 
-                <img src="images/proyecto5.jpg" alt="Aventura"></a>
+                <img src="<?php echo PUBLIC_; ?>/images/proyecto5.jpg" alt="Aventura"></a>
 
         </div>
 

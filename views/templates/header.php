@@ -1,9 +1,9 @@
 <header class="encabezado navbar-fixed-top" role="banner" id="encabezado">
     <div class="container">
         <a href="index.php" class="logo">
-            <img src="images/log.svg" alt="escudo"></a>
-        <a href="index.html" class="moque">
-            <img class="hidden-md-down" src="images/o.svg" alt="lema"></a>
+            <img src="<?php echo PUBLIC_; ?>/images/log.svg" alt="escudo"></a>
+        <a href="index.php" class="moque">
+            <img class="hidden-md-down" src="<?php echo PUBLIC_; ?>/images/o.svg" alt="lema"></a>
         <button type="buttom" class="boton-buscar" data-toggle="collapse" data-target="#bloque-buscar" aria-expanded="false">
             <i class="fa fa-search" aria-hidden="true"></i>
         </button>

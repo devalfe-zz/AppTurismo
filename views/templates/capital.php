@@ -29,7 +29,7 @@
                                 <a href="#">Concejo aprobó declaratoria de emergencia de la provincia Mariscal Nieto por periodo de lluvias </a>
                             </div>
                             <a href="#">
-                                <img src="images/noticias/n1.jpg" />
+                                <img src="<?php echo PUBLIC_; ?>/images/noticias/n1.jpg" />
                             </a>
                         </li>
                         <li>
@@ -37,7 +37,7 @@
                                 <a href="#">Alcalde declaró en sesión permanente plataforma de defensa civil de la provincia Mariscal Nieto </a>
                             </div>
                             <a href="#">
-                                <img src="images/noticias/n2.jpg" />
+                                <img src="<?php echo PUBLIC_; ?>/images/noticias/n2.jpg" />
                             </a>
                         </li>
                         <li>
@@ -45,7 +45,7 @@
                                 <a href="#">Comuna provincial realiza acopio de rocas para posterior enrocado de rio </a>
                             </div>
                             <a href="#">
-                                <img src="images/noticias/n3.jpg" />
+                                <img src="<?php echo PUBLIC_; ?>/images/noticias/n3.jpg" />
                             </a>
                         </li>
 
