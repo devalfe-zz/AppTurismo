@@ -19,9 +19,7 @@ yarn-error.log
 .vscode
 *.sql
 bundle.js
-package.json
-package-lock.json
-webpack.config.js
+
 fondo-grande.jpg
 fondo-principal.jpg
 seccion-grande.jpg
