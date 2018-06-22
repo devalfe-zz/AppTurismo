@@ -576,6 +576,7 @@ Donde la municipalidad viene impulsando la sostenibilidad y la conectividad cont
 
 </main>
 
+<?php include "views/templates/actualidad.php"?>
 <section class="actividades">
 
     <div class="container">

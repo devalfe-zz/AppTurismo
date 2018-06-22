@@ -16,9 +16,7 @@
                 </div>
             </row>
         </div>
-    </div>
-   
-                
+    </div>          
     <main class="container d-flex flex-wrap justify-content-center align-content-center align-items-center text-justify">
     <section class="movies" id="movies">
         <h2></h2>

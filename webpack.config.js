@@ -4,6 +4,10 @@ const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
+const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+
+const autoprefixer = require('autoprefixer');
 
 const DEBUG = process.env.NODE_ENV !== 'production';
 
@@ -13,12 +17,12 @@ const APP_FOLDER = path.resolve(__dirname, 'public');
 // > Dist
 const DIST_FOLDER = path.resolve(APP_FOLDER, 'dist');
 const DIST_FOLDER_STYLE = path.resolve(DIST_FOLDER, '/css');
-const DIST_FOLDER_IMG = path.resolve(DIST_FOLDER, '/');
+const DIST_FOLDER_IMG = path.resolve(DIST_FOLDER, './');
 
 
 const DIST_FILE_JS_BUNDLE = 'js/app.js';
 const DIST_FILE_CSS_BUNDLE_NAME = 'app.css';
-const DIST_FILE_CSS_BUNDLE = `css/${DIST_FILE_CSS_BUNDLE_NAME}`;
+const DIST_FILE_CSS_BUNDLE = 'css/' + DIST_FILE_CSS_BUNDLE_NAME;
 // > Src
 const SRC_FOLDER = path.resolve(APP_FOLDER, 'src');
 const SRC_FILE_JS_APP = path.resolve(SRC_FOLDER, 'index.js');
@@ -26,7 +30,10 @@ const SRC_FILE_JS_APP = path.resolve(SRC_FOLDER, 'index.js');
 module.exports = {
     mode: 'production',
     entry: SRC_FILE_JS_APP,
-    //entry: ['./assets/css/fonts.css', './assets/css/owl.carousel.min.css'],
+    //entry: {
+    //|font: '../AppTurismo/resources/assets/css/fonts.css',
+    //carusel: '../AppTurismo/resources/assets/css/owl.carousel.min.css'
+    //},
     output: {
         path: DIST_FOLDER,
         publicPath: '/public',
@@ -69,7 +76,13 @@ module.exports = {
                     // name: 'images/[name].[hash:7].[ext]'
                     name: '/[name].[ext]',
                     publicPath: DIST_FOLDER_IMG,
-
+                }
+            },
+            {
+                test: /\.(png|jpg|gif|svg|eot|ttf|woff|woff2)$/,
+                loader: 'url-loader',
+                options: {
+                    limit: 10000
                 }
             },
         ], // rules
@@ -80,6 +93,7 @@ module.exports = {
     context: __dirname,
     target: 'web',
     plugins: DEBUG ? [
+        autoprefixer,
         // > Configure CSS Bundle file
         new ExtractTextPlugin({
             filename: DIST_FILE_CSS_BUNDLE,
@@ -115,10 +129,12 @@ module.exports = {
         }),
         new webpack.optimize.OccurrenceOrderPlugin(),
         // > Minimize JS
-        // new webpack.optimize.UglifyJsPlugin({
-        //     sourceMap: false,
-        //     mangle: false,
-        // }),
+        new UglifyJSPlugin({
+            cache: true,
+            parallel: true,
+            sourceMap: false,
+            //     mangle: false,
+        }),
         // > CSS Bundle
         new ExtractTextPlugin({
             filename: DIST_FILE_CSS_BUNDLE,
@@ -127,14 +143,23 @@ module.exports = {
         }),
         // > Minimize CSS
         new OptimizeCssAssetsPlugin({
-            // assetNameRegExp: DIST_FILE_CSS_BUNDLE_NAME,
-            // cssProcessor: require('cssnano'),
-            // cssProcessorOptions: {
-            //     discardComments: {
-            //         removeAll: true
-            //     },
-            // },
-            // canPrint: true,
+            //assetNameRegExp: DIST_FILE_CSS_BUNDLE_NAME,
+            //assetNameRegExp: /\.optimize\.css$/g,
+            assetNameRegExp: 'app.css',
+            cssProcessor: require('cssnano'),
+            cssProcessorOptions: {
+                safe: true,
+                discardComments: {
+                    removeAll: true
+                }
+            },
+            canPrint: true
+        }),
+        new MiniCssExtractPlugin({
+            // Options similar to the same options in webpackOptions.output
+            // both options are optional
+            filename: "app.css",
+            //chunkFilename: "[name].css"
         }),
     ], // plugins
     cache: false,
@@ -144,11 +169,12 @@ module.exports = {
     },
     devServer: {
         contentBase: APP_FOLDER,
-        publicPath: "/",
+        publicPath: "/public",
         historyApiFallback: true,
+        hot: true,
         inline: true,
         host: '192.168.10.1',
-        //port: 9000,
+        port: 8080,
         proxy: {
             '*': {
                 target: 'http://appturismo.test/',

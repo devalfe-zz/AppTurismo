@@ -22,12 +22,14 @@
     <link rel="stylesheet"href="<?php echo PUBLIC_; ?>/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet"href="<?php echo PUBLIC_; ?>/css/fonts.css" />
     <link rel="stylesheet"href="<?php echo PUBLIC_; ?>/css/owl.carousel.min.css" /> 
-    <link rel="stylesheet"href="<?php echo PUBLIC_; ?>/css/bootstrap.css">
     <link rel="stylesheet"href="<?php echo PUBLIC_; ?>/css/animate.min.css" />
     <link rel="stylesheet"href="<?php echo PUBLIC_; ?>/css/swiper.min.css" />
     <link rel="stylesheet"href="<?php echo PUBLIC_; ?>/css/ekko-lightbox.min.css" />
     <link rel="stylesheet"href="<?php echo PUBLIC_; ?>/css/sweetalert.css" />
+    <link rel="stylesheet"href="<?php echo PUBLIC_; ?>/css/bootstrap.css">
     <link rel="stylesheet"href="<?php echo PUBLIC_; ?>/css/app.css" />
+
+
     <script src="<?php echo PUBLIC_; ?>/js/sweetalert.min.js"></script>
 
     <style>
