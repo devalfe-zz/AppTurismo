@@ -1,9 +1,9 @@
-@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Cormorant+Upright:600,700);@charset "UTF-8";
 html {
   font-size: 16px; }
 
 body {
-  font-family: 'Bree W01 Light', serif;
+  font-family: 'Cormorant Upright', serif;
   color: #111111;
   font-size: 16px; }
 
@@ -12,7 +12,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Bree-Regular', serif; }
+  font-family: 'Cormorant Upright', serif; }
 
 .full-screen {
   background-size: cover;
@@ -21,13 +21,25 @@ h5 {
   background-attachment: fixed !important; }
 
 .bienvenidos {
-  background: url("/fondo-principal.jpg") no-repeat center center;
+  background: url("/public/dist/fondo-principal.jpg") no-repeat center center;
   color: #fff;
   background-size: cover;
   background-attachment: fixed !important;
   height: 100vh;
   display: flex;
   flex-direction: column; }
+
+.slider-video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+  background-attachment: fixed !important; }
 
 .bienvenidos .carousel,
 .bienvenidos .carousel .carouse-item,
@@ -61,6 +73,7 @@ h5 {
   transition: 1.2s;
   z-index: 1; }
 
+/* Full Page Carousel itself*/
 .encabezado {
   background: #111111;
   color: #fff;
@@ -341,7 +354,7 @@ h5 {
 *** seccion 4				 ***
 *******************************/
 .servicos {
-  background: url("/seccion.jpg") no-repeat center center;
+  background: url("/public/dist/images/seccion.jpg") no-repeat center center;
   background-size: cover;
   background-attachment: fixed !important;
   color: #fff; }
@@ -1424,7 +1437,7 @@ ul.thumbnails {
   html {
     font-size: 15px; }
   .bienvenidos {
-    background: url("/fondo-grande.65547da.jpg") no-repeat center center;
+    background: url("/public/dist/fondo-grande.65547da.jpg") no-repeat center center;
     background-size: cover;
     background-attachment: fixed !important; }
   .conozca-moquegua ul li {
@@ -1510,7 +1523,8 @@ ul.thumbnails {
   border: 1px solid #e7e7e7;
   overflow: hidden;
   height: auto;
-  position: relative; }
+  position: relative;
+  display: flex; }
 
 .slide-carousel {
   width: 20%;
@@ -1969,7 +1983,7 @@ ul.thumbnails {
     .box .title-container span {
       display: inline-block;
       text-align: center;
-      font-family: sans-serif;
+      font-family: 'Cormorant Upright', serif;
       font-size: 42px;
       font-weight: 700;
       color: #fff;
@@ -2524,15 +2538,42 @@ header {
   width: 100%; }
 
 .profile-card-5 h5 {
-  color: #4E5E30;
-  font-weight: 600; }
+  color: #000;
+  font-weight: 600;
+  text-shadow: 1px 2px 6px rgba(0, 0, 0, 0.6); }
 
 .profile-card-5 p {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 300; }
 
 .profile-card-5 .btn-primary {
   background-color: #F1780D;
   border-color: #4E5E30; }
+
+.side-bar .nav-tabs {
+  border-bottom: none; }
+
+.side-bar .nav-tabs .nav-link {
+  color: #aeaeae;
+  text-transform: uppercase;
+  border: none; }
+
+.side-bar .nav-tabs .nav-link.active,
+.side-bar .nav-tabs .nav-link:hover {
+  border-bottom: 2px solid #ff0000;
+  text-transform: uppercase;
+  color: #222; }
+
+.sidebar-tabing .media {
+  margin-top: 20px; }
+
+.sidebar-tabing img {
+  width: 120px;
+  height: 100px; }
+
+.sidebar-tabing .title-small {
+  line-height: 23px;
+  margin-top: 5px;
+  font-size: 16px; }
 
 /*# sourceMappingURL=../sourcemaps/css/app.css.map*/

@@ -108,7 +108,7 @@ module.exports = {
                 './public/dist/css/*.css',
                 './views/*.php'
             ],
-            host: '192.168.10.1',
+            host: '192.168.10.10',
             port: 3000,
             proxy: 'appturismo.test',
             online: true,
@@ -173,7 +173,7 @@ module.exports = {
         historyApiFallback: true,
         hot: true,
         inline: true,
-        host: '192.168.10.1',
+        host: '192.168.10.10',
         port: 8080,
         proxy: {
             '*': {

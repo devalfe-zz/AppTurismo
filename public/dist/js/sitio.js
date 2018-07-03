@@ -87,7 +87,7 @@ $(window).on('resize', function() {
 // Carousel Auto-Cycle
 $(document).ready(function() {
     $('.carousel').carousel({
-        interval: 8000
+        interval: 48000
     })
 });
 

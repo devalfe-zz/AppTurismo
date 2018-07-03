@@ -24,7 +24,8 @@ class M_linkpages {
             $mlink=="restaurante" ||   
             $mlink=="agencia" ||       
             $mlink=="inicio" ||       
-            $mlink=="lugares" ||               
+            $mlink=="lugares" ||  
+            $mlink=="partial" ||            
             $mlink=="folclore"                                                      
         ){
             $module = "views/templates/".$mlink.".php";

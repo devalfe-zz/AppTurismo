@@ -13,7 +13,7 @@
                     header("location:index");
                     //echo '<script> window.location = "index"</script>';
                 }                               
-                echo '<h1 class="display-4 wow bounceIn">'.$view["titulo"].'</h1>
+                echo '<h1 class="display- 4 wow bounceIn">'.$view["titulo"].'</h1>
                 <p class="wow bounceIn" data-wow-delay=".3s">'.$view["direccion"].' - '.$view["ubicacion"].' </p>
             </div>
         </div>

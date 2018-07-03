@@ -1,16 +1,16 @@
-<script src="<?php echo PUBLIC_; ?>/js/app.js"></script>
-<script src="<?php echo PUBLIC_; ?>/js/vendor/modernizr-2.8.3.min.js"></script>
-<script src="<?php echo PUBLIC_; ?>/js/jquery.min.js"></script>
-<script src="<?php echo PUBLIC_; ?>/js/bootstrap.min.js"></script>
-<script src="<?php echo PUBLIC_; ?>/js/owl.carousel.min.js"></script>
-<script src="<?php echo PUBLIC_; ?>/js/wow.min.js"></script>
-<script src="<?php echo PUBLIC_; ?>/js/sweetalert.min.js"></script>
-<script src="<?php echo PUBLIC_; ?>/js/smooth-scroll.min.js"></script>
-<script src="<?php echo PUBLIC_; ?>/js/jquery.backstretch.min.js"></script>
-<script src="<?php echo PUBLIC_; ?>/js/swiper.min.js"></script>
-<script src="<?php echo PUBLIC_; ?>/js/swiper.jquery.min.js"></script>
-<script src="<?php echo PUBLIC_; ?>/js/scripts.js"></script>
-<script src="<?php echo PUBLIC_; ?>/js/ekko-lightbox.min.js"></script>
+<script src="<?php echo PUBLIC_; ?>js/app.js"></script>
+<script src="<?php echo PUBLIC_; ?>js/vendor/modernizr-2.8.3.min.js"></script>
+<script src="<?php echo PUBLIC_; ?>js/jquery.min.js"></script>
+<script src="<?php echo PUBLIC_; ?>js/bootstrap.min.js"></script>
+<script src="<?php echo PUBLIC_; ?>js/owl.carousel.min.js"></script>
+<script src="<?php echo PUBLIC_; ?>js/wow.min.js"></script>
+<script src="<?php echo PUBLIC_; ?>js/sweetalert.min.js"></script>
+<script src="<?php echo PUBLIC_; ?>js/smooth-scroll.min.js"></script>
+<script src="<?php echo PUBLIC_; ?>js/jquery.backstretch.min.js"></script>
+<script src="<?php echo PUBLIC_; ?>js/swiper.min.js"></script>
+<script src="<?php echo PUBLIC_; ?>js/swiper.jquery.min.js"></script>
+<script src="<?php echo PUBLIC_; ?>js/scripts.js"></script>
+<script src="<?php echo PUBLIC_; ?>js/ekko-lightbox.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
   $('#list').click(function(event){event.preventDefault();
@@ -25,7 +25,6 @@ $(document).ready(function() {
         event.preventDefault();
         $(this).ekkoLightbox();
     });
-
 </script>
 
 <script type="text/javascript">

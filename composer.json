@@ -5,7 +5,8 @@
     "require": {
         "illuminate/database": "^5.5",
         "dompdf/dompdf": "^0.8.2",
-        "guzzlehttp/guzzle": "~6.0"
+        "guzzlehttp/guzzle": "~6.0",
+        "vlucas/phpdotenv": "^2.4"
 
     },
     "require-dev": {
@@ -13,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Devalfe\\": "app/"
+            "appTurismo\\": "app/"
         }
     },
     "license": "MIT",

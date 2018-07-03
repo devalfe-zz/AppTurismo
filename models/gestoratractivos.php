@@ -15,14 +15,14 @@ class AtractivosModels{
 
     static public function serviceAtractivosModels ($api){
        
-        $url = "http://guiaturistica.moqueguaturismo.gob.pe/api/v1/".$api;
+        $url =  $_ENV['API_BASE'].$_ENV['API_URL'].$api;
         $file_headers = @get_headers($url);
         if(!$file_headers || $file_headers[0] == 'HTTP/1.1 404 Not Found') { 
             header("location:index");
             //echo '<script> window.location = "index"</script>';
         }
         else {
-            $url = "http://guiaturistica.moqueguaturismo.gob.pe/api/v1/".$api;
+            $url = $_ENV['API_BASE'].$_ENV['API_URL'].$api;
             $json = file_get_contents($url);
             $data = json_decode($json,true);
             return $data;
@@ -31,15 +31,15 @@ class AtractivosModels{
     }
 
     static public function serviceAtractivoModels($id){
-        //$url ="http://192.168.10.10:3000/api/v1/AtractivosApi/".$id; 
-        $url ="http://guiaturistica.moqueguaturismo.gob.pe/api/v1/atractivo/".$id;
+
+        $url =$_ENV['API_BASE'].$_ENV['API_URL'].'atractivo/'.$id;
         $file_headers = @get_headers($url);
         if(!$file_headers || $file_headers[0] == 'HTTP/1.1 404 Not Found') { 
             header("location:index");
             //echo '<script> window.location = "index"</script>';
         }
         else {
-            $url ="http://guiaturistica.moqueguaturismo.gob.pe/api/v1/atractivo/".$id;           
+            $url =$_ENV['API_BASE'].$_ENV['API_URL'].'atractivo/'.$id;           
             $json = file_get_contents($url);      
             $data = json_decode($json,true);
             return $data;
