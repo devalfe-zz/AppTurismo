@@ -11,6 +11,11 @@
 <script src="<?php echo PUBLIC_; ?>js/swiper.jquery.min.js"></script>
 <script src="<?php echo PUBLIC_; ?>js/scripts.js"></script>
 <script src="<?php echo PUBLIC_; ?>js/ekko-lightbox.min.js"></script>
+
+<script  type="text/javascript">
+new SimpleBar(document.getElementById('history'), { autoHide: false });
+</script>
+
 <script type="text/javascript">
 $(document).ready(function() {
   $('#list').click(function(event){event.preventDefault();

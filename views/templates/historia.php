@@ -1,4 +1,4 @@
-<div class="internas">
+<div class="internas" >
     <section class="bienvenidos">
         <?php include "views/templates/header.php";?>
             <div class="text-encabezado text-center">
@@ -18,13 +18,13 @@
         </div>
     </div>
 
-<section>
-    
-<input type="radio" name="cards" class="card-checkbox" id="toggle-card-1">
-
-<div class="card">
-	<h2 class="text-center m-2 ">Ilo</h2>
-	<p class="m-3 text-justify">Los primeros habitantes del litoral sur peruano fueron los chinchorros, posteriormente, en Ilo, se asentaron los uros–puquinas. Se desarrollaron hace 10,000 años a.C. y se le considera como uno de las más antiguos de la costa.
+<section  id="historia">
+    <div class="container">
+            <div class="row">
+				<div class="col-12 col-md-12">
+                    <div class="info-alojamiento-container history my-5" id="history" data-simplebar data-simplebar-auto-hide="false">
+                    <div id="content_divAtractivoLugar" class="contenido enriquecido1 text-white"><h3>Ilo</h3>
+ <p class="m-5 text-justify text-white">Los primeros habitantes del litoral sur peruano fueron los chinchorros, posteriormente, en Ilo, se asentaron los uros–puquinas. Se desarrollaron hace 10,000 años a.C. y se le considera como uno de las más antiguos de la costa.
 Esta zona fue escenario, desde tiempos ancestrales, de una continua interacción entre poblaciones serranas y costeñas. A partir de los 900 años de nuestra era, Ilo tuvo contacto con la cultura Tiwanaku y se presume que fue una colonia importante del estado altiplánico. Luego de su colapso, alrededor del año 1000 de nuestra era, los grupos sociales influenciados por los tiwanaku dan origen a la cultura Chiribaya, presencia cultural prehispánica más importante en Ilo. Después llegan evidencias de Estuquiña y comparten los espacios con ésta. Cuando los incas llegan esta cultura regional ya había perdido fuerza, siendo anexados estos grupos por el Imperio Inca. 
 La primera referencia histórica, escrita por los españoles, del pujante puerto de Ilo, lo encontramos en 1539, es una carta poder realizada por don Juan Vallejo a favor de don Mizer Francisco para el manejo de su hacienda y navío “Saint Josepho”. 
 Al establecerse el sistema de encomiendas, poco después de la conquista del Perú, el extenso territorio de la costa sur-peruana fue concedida a don Lucas Martínez Begazo quien construye los primeros astilleros del sur, incluido Ilo, que dependía del puerto y luego corregimiento de Arica. En 1565 se crean los corregimientos de indios, e Ilo pasa a ser una dependencia de Arica. En 1793, tras la visita del gobernador intendente de Arequipa, don Antonio Álvarez y Jiménez, la doctrina de la caleta de San Jerónimo de Ilo pasó a formar parte del partido de la Villa de Santa Catalina de Guadalcázar del valle de Moquegua. 
@@ -37,16 +37,9 @@ Por D.S. del 9 de enero de 1895 se le facultó como Puerto Mayor.
  Otro de los atractivos del valle de Ilo son sus frondosos olivares y fértiles viñedos donde se pueden conseguir exquisitos piscos y las mejores aceitunas botija del país. Así también lo constituyen la cultura preinca Chiribaya, cuna del perro pastor chiribaya, cuyos restos podemos observarlos en el museo de sitio Chiribaya. 
 La Glorieta y su hermoso malecón son atractivos lugares desde donde uno puede contemplar, casi en éxtasis, la puesta de sol sobre la tranquilidad de las aguas, el paisaje rocoso y el verdor costero.    
  Actualmente su puerto tiene carácter internacional por contar con una infraestructura de muelles, espigones y grúas de gran capacidad que le permiten el acoderamiento de barcos de gran tonelaje, además de tener un impresionante circuito de playas. Ilo se proyecta a ser un importante punto de comercio y turismo del Perú.
-
 </p>
-</div>
-
-
-<input type="radio" name="cards" class="card-checkbox" id="toggle-card-2">
-
-<div class="card">
-	<h2 class= "text-center m-2" >Mariscal Nieto</h2>
-    <p class="m-3 text-justify">La región en que se asienta Moquegua era ya conocida y poblada desde antes de la llegada de los incas, hace unos 12000 años. Grupos de cazadores dispersos en la región costera y alto andina conformaron este primer grupo migrante. Con la aparición de la agricultura surgen los huaracanes, grupo alfarero que se asentó alrededor del año 1000 a. C. Alrededor del 500 d.C. llegaron dos grandes civilizaciones: Tiwanaku, de origen altiplánico y, Wari, de Ayacucho, extendiendo sus dominios hasta ocupar el valle de Moquegua y el Cerro Baúl respectivamente. Luego del colapso Tiwanaku-Wari, cobran importancia grupos locales como los chiribayas (950-1350 d.C.) y los estuquiñas o cuchunas (1000-1475 d.C.). Este último integrado al Tahuantinsuyo a la llegada de los incas. </p> <p class="text-justify m-3"> 
+<h3>Mariscal Nieto</h3>
+  <p class="m-5 text-justify text-white">La región en que se asienta Moquegua era ya conocida y poblada desde antes de la llegada de los incas, hace unos 12000 años. Grupos de cazadores dispersos en la región costera y alto andina conformaron este primer grupo migrante. Con la aparición de la agricultura surgen los huaracanes, grupo alfarero que se asentó alrededor del año 1000 a. C. Alrededor del 500 d.C. llegaron dos grandes civilizaciones: Tiwanaku, de origen altiplánico y, Wari, de Ayacucho, extendiendo sus dominios hasta ocupar el valle de Moquegua y el Cerro Baúl respectivamente. Luego del colapso Tiwanaku-Wari, cobran importancia grupos locales como los chiribayas (950-1350 d.C.) y los estuquiñas o cuchunas (1000-1475 d.C.). Este último integrado al Tahuantinsuyo a la llegada de los incas. </p> <p class="text-justify m-5"> 
 No están muy claros los orígenes del asentamiento español en estas tierras cuya fundación posiblemente fue en 1537. Tras varias demandas y querellas entre los poblados españoles de los pueblos de San Sebastián de Escapagua y Santa Catalina de Alejandría, ubicados a ambos lados del río Tambapaya (Moquegua), con dependencias en Arequipa y Chucuito, respectivamente, el XII Virrey del Perú, don Francisco Borja y Aragón, Príncipe de Esquilache, funda sobre el poblado de San Sebastián de Escapagua la Villa de San Francisco de Esquilache, el 27 de marzo de 1618. Los vecinos del pueblo de Santa Catalina, no contentos con la designación de la nueva villa litigaron por su preponderancia ante el XIII Virrey don Diego Fernández de Córdoba, Marqués de Guadalcázar, quien falló a favor de ellos. El Virrey le dio su título, denominándola Villa de Santa Catalina de Guadalcázar del valle de Moquegua, fundándola el 1 de mayo de 1625. Se estableció un cabildo y con una serie de rangos que contribuyeron a dar mayor importancia a la ciudad. La favoreció con toda clase de mercedes y seguramente con privilegio de armas, el que debe descansar en los archivos de Indias. El Marqués ordenó su reedificación, convirtiéndola en uno de los centros de la más rancia aristocracia colonial, edificándose en ella hermosos solares y magníficos templos.
 Moquegua tuvo una relevante participación de la historia nacional durante el virreinato, destacado y sacrificado papel durante la lucha por defender nuestra soberanía, primeramente, contra el ejército español (1823, batallas de Torata y Moquegua) y luego contra el ejército chileno (1880, batalla de los Ángeles).
 Moquegua se distinguió en la lucha por la independencia. Don Juan Vélez de Córdoba, ejecutado en Oruro en 1737 por su Manifiesto y levantamiento contra el yugo español. Merecen mención don José Manuel Ubalde, don José Gavino, don Pedro Barrios y don Juan Rospigliosi, entre muchos moqueguanos que se sumaron progresivamente a la causa independentista. Esto produjo que, tras el levantamiento de Pumacahua, Moquegua proclamó espontáneamente su independencia en 1814, posiblemente un 9 de noviembre; fue la primera ciudad en el suelo patrio en proclamar independientemente su independencia. Posterior a esta fecha, Moquegua proclamó su independencia en 1823 y 1825.
@@ -58,14 +51,8 @@ Circundan la plaza sobrias casas solariegas y la fachada de lo que fue la catedr
 Hoy el templo más notable es Santo Domingo, no sólo porque es la mejor expresión del arte religioso de la región, sino porque en el altar se encuentra el cuerpo de Santa Fortunata, virgen y mártir del cristianismo, quien fuera traída de Roma. En el Perú es la única iglesia fuera de Lima que conserva el cuerpo de un santo y una de las pocas que tiene este privilegio en el mundo. Contó Moquegua con uno de los hospitales más antiguos, fundado en 1726, con el nombre de San Juan de Dios. 
 Moquegua es la tierra del sol eterno. En su lenguaje, costumbres, arquitectura y tradiciones se devela su marcada supervivencia hispana. Calles estrechas, rejas sevillanas, balcones de cajón y hermosas casas solariegas, parecen invitar, a propios y extraños, al deleite plácido de sus años mozos, donde la prosperidad y la riqueza convirtieron a esta ciudad en un emporio de cultura y tradición, cuyos viñedos y olivares fueron muy cotizados en América y Europa por su alta calidad. Los corredores y salones nos hablan aún de su glorioso pasado.
 </p>
-</div>
-
-
-<input type="radio" name="cards" class="card-checkbox" id="toggle-card-3">
-
-<div class="card">
-	<h2 class= "text-center m-2" >Sanchez Cerro</h2>
-	<p class="m-3 text-justify">Omate, cabeza de serpiente o unión de quebradas, es una ciudad alto andina que posee una enigmática belleza; escondida entre las arrugas de nuestra geografía, guarda a buen recaudo el misterio de nuestros antepasados desde la época precolombina. 
+<h3>Sanchez Cerro</h3>
+  <p class="m-5 text-justify text-white">Omate, cabeza de serpiente o unión de quebradas, es una ciudad alto andina que posee una enigmática belleza; escondida entre las arrugas de nuestra geografía, guarda a buen recaudo el misterio de nuestros antepasados desde la época precolombina. 
 La provincia de Sánchez Cerro comprende zonas de puna, donde las evidencias de grupos de cazadores y recolectores durante el período arcaico son abundantes. No hay un registro de todos los sitios arqueológicos en la zona, aunque existen muestras del desarrollo de estas durante todo este periodo hasta la época Inca.
 Según Ravines, el sitio arqueológico de Ichuña (3883 m.s.n.m.), muestra restos de rústicos habitáculos y talleres líticos correspondientes a lo que habría sido uno de los más tempranos asentamientos de cazadores y/o recolectores en proceso de transición a la vida sedentaria (3500 a.C.). Los antiguos habitantes de esta zona iniciaron un importante proceso de culturización que se proyectó a la zona del litoral (1500 a.C.), pero que se vio interrumpido a partir del siglo II anterior a nuestra era por la presencia de sucesivas migraciones expansivas cordilleranas. Los uros-puquinas, pobladores del lago Titicaca, migraron al suroeste por las inclemencias del tiempo, fundando pueblos existentes hasta el día de hoy. 
 Durante la época colonial el valle es dividido en dos grandes encomiendas, la de Omate, otorgada al capitán Martín López de Carvajal y la de Quinistacas, al bachiller don Miguel Rodríguez de Cantalapiedra, en donde se erigió el primer templo en honor a San Bernardo.
@@ -77,9 +64,14 @@ Los templos de belleza única, así como su rústica arquitectura, están constr
 Omate y sus alrededores son famosos por la elaboración artesanal de sus vinos y piscos de excelente calidad en falcas y alambiques, así como la exquisita variedad de sus panes, los mismos que son elaborados en molinos hidráulicos cuyos sistemas de regulación permite sacar distintas calidades de harina.
 </p>
 </div>
-<input type="radio" name="cards" class="card-checkbox" id="toggle-card-4">
+                    </div>                    
+                </div>
+            </div>
+        
 
-</section>>
-    
+</div>
 
+
+</section>
+        
 </div>
