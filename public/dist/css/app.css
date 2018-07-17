@@ -156,6 +156,9 @@ h5 {
   list-style: none;
   padding: 0; }
 
+#menu-principal .dropdown-menu {
+  background-color: #111; }
+
 #menu-principal ul li a {
   display: block;
   padding: .8rem 0;
@@ -997,7 +1000,7 @@ ul.thumbnails {
   right: -5px;
   width: 10px;
   height: 10px;
-  -webkit-transform: rotate(-45deg); }
+  transform: rotate(-45deg); }
 
 .internas .linetime#timeline article div.inner p {
   padding: 15px;
@@ -1528,7 +1531,6 @@ ul.thumbnails {
 
 .slide-carousel {
   width: 20%;
-  float: left;
   display: inline-block; }
 
 .servicios .carousel-row .slide-row .img-thumbnail {
@@ -1639,7 +1641,6 @@ ul.thumbnails {
   font: 600 15px/24px open sans;
   display: inline;
   padding: 3px 15px;
-  width: auto;
   border: 1px solid transparent;
   margin: 0 auto;
   transition: all .2s ease .2s; }
@@ -1747,7 +1748,6 @@ ul.thumbnails {
   float: left;
   overflow: hidden;
   border-left: 10px solid #fff;
-  pointer: cursor;
   box-shadow: 0 0 7px rgba(0, 0, 0, 0.9);
   transform: skewX(-20deg);
   transition: width 1.2s ease-in-out; }
@@ -2620,6 +2620,44 @@ header {
 
 .contenido h3 {
   color: #f1780d; }
+
+.section.noct {
+  text-align: center; }
+
+#section0,
+#section1,
+#section2,
+#section3 {
+  color: #fff;
+  background-size: cover;
+  background-attachment: fixed; }
+
+#section0 {
+  background-image: url("/public/dist/bg1.jpg"); }
+
+#section1 {
+  background-image: url("/public/dist/fondo-grande.65547da.jpg"); }
+
+#section2 {
+  background-image: url("/public/dist/fondo-principal.jpg"); }
+
+#section3 {
+  background-image: url("/public/dist/fondo-principal.jpg") no-repeat center center; }
+
+#section0 h1 {
+  top: 50%;
+  transform: translateY(-50%);
+  position: relative; }
+
+.titulo-nocturna {
+  font-size: 3.5rem;
+  color: #fff;
+  line-height: .9;
+  margin-top: 0;
+  text-shadow: 1px 2px 6px rgba(0, 0, 0, 0.7); }
+
+.texto-nocturna {
+  font-size: 1.5rem; }
 /*!
  * 
  *         SimpleBar.js - v2.6.1

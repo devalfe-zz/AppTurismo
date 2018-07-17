@@ -11,7 +11,18 @@
 <script src="<?php echo PUBLIC_; ?>js/swiper.jquery.min.js"></script>
 <script src="<?php echo PUBLIC_; ?>js/scripts.js"></script>
 <script src="<?php echo PUBLIC_; ?>js/ekko-lightbox.min.js"></script>
+<script src="<?php echo PUBLIC_; ?>js/fullpage.min.js"></script>
 
+<<script>
+    var myFullpage = new fullpage('#fullpage', {
+        verticalCentered: true,
+        anchors: ['firstPage', 'secondPage', '3rdPage'],
+       // sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C'],
+        navigationPosition: 'left',
+        navigation: true,
+        css3:false   
+    });
+</script>
 <script  type="text/javascript">
 new SimpleBar(document.getElementById('history'), { autoHide: false });
 </script>

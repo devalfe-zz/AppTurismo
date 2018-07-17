@@ -44,21 +44,12 @@ class Atractivos {
         $resul = (new AtractivosModels)->serviceAtractivosModels($api);
         $lugares = $resul['data'];       
         //var_dump ($lugares);
-        echo '<div class="container">
-                <div class=" well-lg">
-                    <strong>Display</strong>
-                    <div class="btn-group">
-                        <a href="#" id="list" class="btn btn-default "><span class="">
-                        </span>List</a> <a href="#" id="grid" class="btn btn-default "><span
-                            class=""></span>Grid</a>
-                    </div>
-                </div>
+        echo '<div class="container">               
                 <div id="products" class="row list-group d-flex" style="float-right">';
-
                     foreach($lugares as $row => $item){     
-                    echo'<div class="items col-4 grid-group-item">
+                    echo'<div class="items col-lg-4 col-md-6 grid-group-item">
                         <div class="thumbnail card-01 col-12">
-                            <img class="group list-group-image d-block img-fluid" src="http://moqueguaturismo.gob.pe/'.$item["foto_url"].'" alt="'.$item["titulo"].'" />
+                            <img class="group list-group-image d-block img-fluid" src="'.$_ENV['API_IMG'].PUBLIC_.$item["foto_url"].'" alt="'.$item["titulo"].'" />
                             <div class="caption">
                                 <h4 class="group inner list-group-item-heading">'.$item["titulo"].'</h4>
                                 <p class="group inner list-group-item-text">'.$item["descripcion"].'</p>

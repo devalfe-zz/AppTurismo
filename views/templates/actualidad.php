@@ -10,7 +10,7 @@ echo '
         foreach ($view as $key => $item) {
         echo'<article class="card profile-card-5">
                     <div class="card-img-block">
-    		            <img class="card-img-top" src="'.PUBLIC_.$item['foto_url'].'" alt="">
+    		            <img class="card-img-top" src="'.$_ENV['API_IMG'].PUBLIC_.$item['foto_url'].'" alt="">
     		        </div>
                     <div class="card-block">
                         <h5 class="card-title">'.$item['titulo'].'</h5>

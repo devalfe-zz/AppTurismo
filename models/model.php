@@ -25,7 +25,8 @@ class M_linkpages {
             $mlink=="agencia" ||       
             $mlink=="inicio" ||       
             $mlink=="lugares" ||  
-            $mlink=="partial" ||            
+            $mlink=="partial" ||
+            $mlink=="model" ||            
             $mlink=="folclore"                                                      
         ){
             $module = "views/templates/".$mlink.".php";

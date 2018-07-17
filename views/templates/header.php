@@ -19,14 +19,15 @@
             <ul>
                 <li class="<?php if ( $clink=='inicio') { echo 'active'; } ?>"><a href="index.php">Inicio</a>
                 </li>
-               <li class="<?php if ( $clink=='nosotros') { echo 'active'; } ?>"><a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Inspiráte</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Moquegua</a>
-                            <a class="dropdown-item" href="#">Noticias</a>
-                            <a class="dropdown-item" href="#">Eventos</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Mapa</a>
-                        </div>
+               <li class="dropdown">
+                    <a class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">Inspiráte</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                        <a href="index.php?action=model&id=11">Noticias</a>
+                        <a href="index.php?action=model&id=8">Eventos</a>
+                        <a href="#!">Galeria</a>
+                        <a href="#!">Videos</a>
+                    </div>
                 </li>
                 <li class="<?php if ( $clink==" servicio ") { echo "active "; } ?>"><a href="guia/index.html">Guía Turística</a>
                 </li>

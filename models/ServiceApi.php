@@ -22,7 +22,7 @@ class Restfull{
         ]);
         $response = $client->request('GET', $id);
         //json_decode(json_encode($data),true);
-        $data = json_decode($response->getBody()->getContents(),true);
+        $data = json_decode($response->getBody()->getContents(),true);  
         return $data;
                    
     }

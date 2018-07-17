@@ -18,7 +18,7 @@ echo '
         <div class="container">
             <row>
                 <div class="bar col-12 text-right">
-                    <a href="index.php">Inicio</a> » Transporte
+                    <a href="index.php">Inicio</a> » '.$categoria['titulo'].'
                 </div>
             </row>
         </div>

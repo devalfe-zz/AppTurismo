@@ -23,6 +23,7 @@ require_once "controllers/gestorServicio.php";
 // if(DEV_ENV == 'development') {
 //     $dotenv->load(dirname(__DIR__), 'dev.env');
 // }
-$dotenv = new Dotenv\Dotenv($_SERVER['DOCUMENT_ROOT']);
-$dotenv->load();
+//$dotenv = new Dotenv\Dotenv($_SERVER['DOCUMENT_ROOT']);
+$dotenv = new Dotenv\Dotenv( __DIR__ );
+$dotenv->overload();
 $cIndex = (new C_Controller)->C_f_Plantilla();

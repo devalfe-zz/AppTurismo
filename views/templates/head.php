@@ -27,18 +27,16 @@
     <link rel="stylesheet"href="<?php echo PUBLIC_; ?>css/ekko-lightbox.min.css" />
     <link rel="stylesheet"href="<?php echo PUBLIC_; ?>css/sweetalert.css" />
     <link rel="stylesheet"href="<?php echo PUBLIC_; ?>css/bootstrap.css">
+    <link rel="stylesheet"href="<?php echo PUBLIC_; ?>css/fullpage.min.css">
     <link rel="stylesheet"href="<?php echo PUBLIC_; ?>css/app.css" />
-
-
     <script src="<?php echo PUBLIC_; ?>js/sweetalert.min.js"></script>
-
     <style>
         .swiper-container {
             width: 300px;
             height: 300px;
             padding: 50px;
         }
-        
+       
         .swiper-slide {
             background-position: center;
             background-size: cover;
@@ -47,5 +45,4 @@
         }
 
     </style>
-
 </head>

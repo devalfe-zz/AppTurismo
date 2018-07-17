@@ -328,7 +328,7 @@ Donde la municipalidad viene impulsando la sostenibilidad y la conectividad cont
     </div>
 
 </section>
-   <?php // include "views/templates/programa.php"?>
+   <?php include "views/templates/programa.php"?>
 <section class="conozca-moquegua">
 
     <div class="container">
