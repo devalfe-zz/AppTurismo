@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 class M_linkpages {
 
@@ -17,29 +17,31 @@ class M_linkpages {
             $mlink=="religiosidad" ||
             $mlink=="aventura" ||
             $mlink=="historia" ||
-            $mlink=="contactenos" ||    
-            $mlink=="prehispanica" ||   
-            $mlink=="transporte" ||   
-            $mlink=="alojamiento" ||   
-            $mlink=="restaurante" ||   
-            $mlink=="agencia" ||       
-            $mlink=="inicio" ||       
-            $mlink=="lugares" ||  
+            $mlink=="contactenos" ||
+            $mlink=="prehispanica" ||
+            $mlink=="transporte" ||
+            $mlink=="alojamiento" ||
+            $mlink=="restaurante" ||
+            $mlink=="agencia" ||
+            $mlink=="inicio" ||
+            $mlink=="lugares" ||
             $mlink=="partial" ||
-            $mlink=="model" ||            
-            $mlink=="folclore"                                                      
+            $mlink=="model" ||
+            $mlink=="media" ||
+
+            $mlink=="folclore"
         ){
             $module = "views/templates/".$mlink.".php";
         }
         else if ($mlink == "index"){
-            $module = "views/templates/inicio.php";        
+            $module = "views/templates/inicio.php";
         }
         else {
             $module = "views/templates/inicio.php";
         }
-       return $module;    
+       return $module;
     }
- 
+
 
     static public function M_f_scriptPages($mScript){
         if ($mScript == "index"){
@@ -48,7 +50,7 @@ class M_linkpages {
         else {
             $js = "views/templates/scripts.php";
         }
-        return $js;     
+        return $js;
     }
 
 }

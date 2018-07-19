@@ -25,8 +25,8 @@
                     <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
                         <a href="index.php?action=model&id=11">Noticias</a>
                         <a href="index.php?action=model&id=8">Eventos</a>
-                        <a href="#!">Galeria</a>
-                        <a href="#!">Videos</a>
+                        <a href="index.php?action=media&id=1">Galeria</a>
+                        <a href="index.php?action=media&id=0">Videos</a>
                     </div>
                 </li>
                 <li class="<?php if ( $clink==" servicio ") { echo "active "; } ?>"><a href="guia/index.html">Guía Turística</a>

@@ -1,6 +1,6 @@
 {
     "name": "AppTurismo",
-    "version": "1.0.0",
+    "version": "0.1.0",
     "description": "Pagina web Turismo",
     "main": "./js/index.js",
     "scripts": {
