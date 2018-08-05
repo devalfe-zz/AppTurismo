@@ -30,9 +30,9 @@ if (count($view)==0 && $_GET["id"]==0){
         <div class="container">
             <div class="row">';
                  foreach($view as $row => $item){
-                echo'<div class="card">
-                        <a data-fancybox="" data-width="640" data-height="360" href="'.$_ENV['API_IMG'].PUBLIC_.$item["video_url"].'">
-                            <img class="card-img-top img-fluid" src="'.$_ENV['API_IMG'].PUBLIC_.$item["foto_url"].'">
+                echo'<div class="card profile-card-5 col-lg-3 col-md-4">
+                        <a data-fancybox="videos" data-width="640" data-height="360" href="'.$_ENV['API_IMG'].PUBLIC_.$item["video_url"].'">
+                            <img class="img-fluid" src="'.$_ENV['API_IMG'].PUBLIC_.$item["foto_url"].'">
                         </a>
                         <div class="card-body">
                             <p class="card-text">'.$item["titulo"].'</p>
@@ -74,10 +74,10 @@ echo '
             <div class="vision">';
             if ($_GET["id"]==1) {
                 foreach($view as $row => $item){
-                echo'<figure data-fancybox="images">
-                    <img src="'.$_ENV['API_IMG'].PUBLIC_.$item["foto_url"].'" alt="" />
+                echo'<a data-fancybox="images" data-caption="'.$item["titulo"].'">
+                    <img src="'.$_ENV['API_IMG'].PUBLIC_.$item["foto_url"].'" data-position="'.$item["id"].'" alt="" />
                     <figcaption>'.$item["titulo"].'<small></small></figcaption>
-                </figure>';
+                </a>';
                }
             }  if ($_GET["id"]==0) {
                  foreach($view as $row => $item){

@@ -1,6 +1,6 @@
 <section class="bienvenidos">
 <?php include "views/templates/header.php";?>
-<!--Carousel Wrapper--> 
+<!--Carousel Wrapper-->
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -28,7 +28,7 @@
             </div>
         </div>
         <div class="carousel-item">
-            <img class="figure" src="<?php echo PUBLIC_; ?>images/fondo-principalxx.jpg" data-color="firebrick" alt="slide2"> 
+            <img class="figure" src="<?php echo PUBLIC_; ?>images/slider.png" data-color="firebrick" alt="slide2">
             <div class="carousel-caption carousel-style-center">
                 <div class="text-encabezado text-center">
                     <div class="container">
@@ -36,13 +36,13 @@
                             <img src="<?php echo PUBLIC_; ?>images/moque.svg" alt="logomoquegua" class="wow fadeInUp" data-wow-duration="2s" data-wow-delay=".5s">
                         </a>
                         <h3 class="display-6 wow fadeInUp" data-wow-duration="2s" data-wow-delay="1s">Valle hermoso y escondido allá entre áridos desiertos; risueño Edén, donde moran en consorcio sempiterno la blanca quietud del ánimo y el dulce contentamiento. La tibieza de sus auras, tu limpio cendal etéreo: - acoge el ardiente voto que, desde antípodo suelo, entusiasmado te envía en alas de raudo viento quien más amor te consagra. Sean de hoy más en copas de oro libado en el mundo entero; y que el alma que cobres, y el bien que para ti anhelo, jamás el helado soplo pueda robarte el tiempo</h3>
-                        <p class="text-uppercase wow fadeInUp" data-wow-duration="2s" data-wow-delay="2s">Al valle de Moquegua Juan Arguedas Prada </p>                       
+                        <p class="text-uppercase wow fadeInUp" data-wow-duration="2s" data-wow-delay="2s">Al valle de Moquegua Juan Arguedas Prada </p>
                     </div>
                 </div>
             </div>
         </div>
         <div class="carousel-item">
-            <img class="figure" src="<?php echo PUBLIC_; ?>images/fondo-principalxxx.jpg" data-color="violet" alt="slide3"> 
+            <img class="figure" src="<?php echo PUBLIC_; ?>images/fondo-principalxxx.jpg" data-color="violet" alt="slide3">
             <div class="carousel-caption carousel-style-right">
                 <div class="text-encabezado text-center text-md-left">
                     <div class="container">
@@ -50,7 +50,7 @@
                             <img src="<?php echo PUBLIC_; ?>images/moque.svg" alt="logomoquegua" class="wow fadeInUp" data-wow-duration="2s" data-wow-delay=".5s">
                         </a>
                         <h3 class="display-6 wow fadeInUp" data-wow-duration="2s" data-wow-delay="1s">La esmeralda de un valle sobre la felpa lila. el puño gigantesco de un cerro vigila,el rumor misterioso del tiempo que pasó. Un cielo de cobalto. Y una ciudad dormida -tal como el maleficio que algún brujo le dio-, fingiendo ser el sueño de un hada perseguida por su pasión suicida, en la angustiosa huida, como en la figa de la Cenicienta, olvidó </h3>
-                        <p class="text-uppercase wow fadeInUp" data-wow-duration="2s" data-wow-delay="2s">Ciudad dormida Roberto MacLean Estenós </p>       
+                        <p class="text-uppercase wow fadeInUp" data-wow-duration="2s" data-wow-delay="2s">Ciudad dormida Roberto MacLean Estenós </p>
                     </div>
                 </div>
             </div>
@@ -66,11 +66,11 @@
     </a>
 </div>
 <!--/.Carousel Wrapper-->
-        
+
 
 </section>
  <!-- <div id="myModal" class="modal fade" role="dialog">
-  <div class="modal-dialog modal-lg"> 
+  <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -78,9 +78,9 @@
       </div>
       <div class="modal-body">
         <a href="#">
-              <iframe src="http://docs.google.com/gview?url=http://www.moqueguaturismo.gob.pe/programa/PROGRAMAVENDIMIA2018.pdf&embedded=true" style="width:770px; height:500px;" frameborder="0"></iframe> 
+              <iframe src="http://docs.google.com/gview?url=http://www.moqueguaturismo.gob.pe/programa/PROGRAMAVENDIMIA2018.pdf&embedded=true" style="width:770px; height:500px;" frameborder="0"></iframe>
         </a>
-      </div>       
+      </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
       </div>
@@ -93,7 +93,7 @@
 
   <div class="modal-dialog modal-lg">
 
-    
+
 
     <div class="modal-content">
 
@@ -113,7 +113,7 @@
 
         </a>
 
-      </div>       
+      </div>
 
       <div class="modal-footer">
 
@@ -134,7 +134,7 @@
     <div class="container">
 
         <div class="row">
-                       
+
             <div class="col-md-6">
                 <h3 class="text-center text-md-left font-weight-bold">¡Moquegua, la tierra del Sol, la Vid y la Amistad te espera!</h3>
 
@@ -161,14 +161,14 @@
 
             </div>
 
-    
+
 
             <!-- <div class="row col-12"> -->
 
-                
-    
-             
-         <!-- 
+
+
+
+         <!--
     <section class="noticia py-2">
 
         <div class="container">
@@ -187,7 +187,7 @@
 
                                 <a href="#"><h4>Día Mundial del Turismo: Moquegua apuesta por conectividad y sostenibilidad</h4></a>
 
-                                <p>Hoy jueves 28 de setiembre se realizará el programa por el día mundial del turismo a partir de las 10 de la mañana donde se expondrá la presentación de página web, aplicativo para celular, tótems interactivos y la primera sala del museo del traje.  
+                                <p>Hoy jueves 28 de setiembre se realizará el programa por el día mundial del turismo a partir de las 10 de la mañana donde se expondrá la presentación de página web, aplicativo para celular, tótems interactivos y la primera sala del museo del traje.
 
 Donde la municipalidad viene impulsando la sostenibilidad y la conectividad contribuyen a afianzar el desarrollo turístico regional, y por ello la municipalidad provincial de mariscal nieto viene trabajando en proyectos que promueven la integración de sus principales destinos, atractivos y productos turísticos de toda la región.
 
@@ -260,12 +260,12 @@ Donde la municipalidad viene impulsando la sostenibilidad y la conectividad cont
 
 
 <!-- Modal -->
-<!-- 
+<!--
 <div class="modal fade bd-example-modal-lg" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModal3Label" aria-hidden="true">
 
   <div class="modal-dialog" role="document">
 
-    <div class="modal-content">   
+    <div class="modal-content">
 
             <img class="w-100 img-fluid" data-toggle="modal" data-target="#Modal1" src="images/santa1.jpg" alt="santa1">
 
@@ -292,12 +292,12 @@ Donde la municipalidad viene impulsando la sostenibilidad y la conectividad cont
 </div> -->
 
 <!-- Modal -->
-<!-- 
+<!--
 <div class="modal fade bd-example-modal-lg" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModal3Label" aria-hidden="true">
 
   <div class="modal-dialog" role="document">
 
-    <div class="modal-content">           
+    <div class="modal-content">
 
         <img class="img-fluid" data-toggle="modal" data-target="#Modal1" src="images/santaok.jpg" alt="santa3">
 
@@ -315,9 +315,9 @@ Donde la municipalidad viene impulsando la sostenibilidad y la conectividad cont
 
     </section> -->
 
-  
 
-                
+
+
 
 
 

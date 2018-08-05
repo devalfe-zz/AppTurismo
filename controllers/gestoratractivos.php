@@ -22,16 +22,16 @@ class Atractivos {
                                         <img class="d-block img-fluid" src=http://moqueguaturismo.gob.pe/BackTurismo/'.$item["rutaii"].'></li>
                                     </div>
                                 </div>
-                                
+
                             </div>
-                            <div class="card-body">                                
+                            <div class="card-body">
                                 <h4 class="card-title">'.$item["titulo"].'</h4>
                                 <p class="card-text">'.$item ["introduccion"].'</p>
                                 <a href="index.php?action=articulos&id="'.$item["id"].'" class="btn btn-default text-uppercase">Más</a>
                             </div>
                         </div>
-                    </div>            
-                ';   
+                    </div>
+                ';
         }
                 echo'</div>
             </div>
@@ -42,14 +42,14 @@ class Atractivos {
         $api="atractivo";
         //$var="grid";
         $resul = (new AtractivosModels)->serviceAtractivosModels($api);
-        $lugares = $resul['data'];       
+        $lugares = $resul['data'];
         //var_dump ($lugares);
-        echo '<div class="container">               
+        echo '<div class="container">
                 <div id="products" class="row list-group d-flex" style="float-right">';
-                    foreach($lugares as $row => $item){     
+                    foreach($lugares as $row => $item){
                     echo'<div class="items col-lg-4 col-md-6 grid-group-item">
                         <div class="thumbnail card-01 col-12">
-                            <img class="group list-group-image d-block img-fluid" src="'.$_ENV['API_IMG'].PUBLIC_.$item["foto_url"].'" alt="'.$item["titulo"].'" />
+                            <img class="group list-group-image d-block img-fluid" src="'.$_ENV['API_IMG'].PUBLIC_.$item["foto_url"].'" alt="'.$item["titulo"].'"/>
                             <div class="caption">
                                 <h4 class="group inner list-group-item-heading">'.$item["titulo"].'</h4>
                                 <p class="group inner list-group-item-text">'.$item["descripcion"].'</p>
@@ -64,7 +64,7 @@ class Atractivos {
                             </div>
                         </div>
                     </div>';
-                    } 
+                    }
            echo '</div>
         </div>
 ';
@@ -82,7 +82,7 @@ class Atractivos {
         //             <section class="lugares">
         //                 <div class="row">
         //                 ';
-        //                 foreach($resul as $row => $item){        
+        //                 foreach($resul as $row => $item){
         //                     echo '<div class="row carousel-row">
         //                     <div class="col-12 slide-row">
         //                             <div id="carousel-'.$item["id"].'" class="carousel slide slide-carousel" data-ride="carousel">
@@ -128,9 +128,9 @@ class Atractivos {
         //                                     <div class="carousel-item">
         //                                         <img class="d-block img-fluid" src=http://moqueguaturismo.gob.pe/'.$item["foto_url"].'></li>
         //                                     </div>
-        //                                 </div>                     
+        //                                 </div>
         //                             </div>
-        //                             <div class="card-body">          
+        //                             <div class="card-body">
         //                                 <h4 class="card-title">'.$item["titulo"].'</h4>
         //                                 <p class="card-text">'.$item ["descripcion"].'</p>
         //                                 <a href="index.php?action=lugares&id='.$item["id"].'"class="btn btn-outline-primary">Más</a>
@@ -138,13 +138,13 @@ class Atractivos {
         //                         </div>
         //                     </div>';
         //                     //}
-        //                 }          
+        //                 }
         //                     echo'</div>
         //         </section>
         // </main>';
 
     }
-    
+
     static public function serviceAtractivoController($id){
         if(preg_match('/^[0-9]+$/',$id)){
             $result = (new AtractivosModels)->serviceAtractivoModels($id);

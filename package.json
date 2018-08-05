@@ -1,14 +1,15 @@
 {
     "name": "AppTurismo",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Pagina web Turismo",
     "main": "./js/index.js",
     "scripts": {
         "devel": "webpack --watch",
-        "start": "webpack-dev-server --progress --colors",
-        "build": "webpack --config webpack.config.js",
-        "prod": "NODE_ENV=production npm run build",
-        "env": "webpack-dev-server --watch --hot --colors"
+        "dev": "npm run development",
+        "development": "cross-env NODE_ENV=development webpack --watch --progress --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "cross-env NODE_ENV=development webpack --watch --progress --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "hot": "NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "production": "NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
     },
     "repository": {
         "type": "git",
@@ -28,9 +29,11 @@
         "babel-preset-env": "^1.7.0",
         "browser-sync": "^2.24.4",
         "browser-sync-webpack-plugin": "^2.0.1",
+        "cross-env": "^5.2.0",
         "css-loader": "^0.28.11",
         "extract-text-webpack-plugin": "4.0.0-beta.0",
         "file-loader": "^1.1.11",
+        "laravel-mix": "^2.1.11",
         "mini-css-extract-plugin": "^0.4.0",
         "node-sass": "^4.9.0",
         "optimize-css-assets-webpack-plugin": "^4.0.2",
@@ -39,7 +42,7 @@
         "style-loader": "^0.21.0",
         "uglifyjs-webpack-plugin": "^1.2.5",
         "url-loader": "^1.0.1",
-        "webpack": "^4.12.0",
+        "webpack": "^4.16.4",
         "webpack-dev-server": "^3.1.4",
         "webpack-sass-loaders": "^1.0.0"
     },
@@ -48,7 +51,7 @@
         "babel-preset-es2015": "^6.24.1",
         "fullpage.js": "^3.0.1",
         "simplebar": "^2.6.1",
-        "webpack-cli": "^3.0.8",
-        "webpack-command": "^0.2.1"
+        "webpack-cli": "^3.1.0",
+        "webpack-command": "^0.4.1"
     }
 }

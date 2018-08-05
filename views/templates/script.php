@@ -12,6 +12,52 @@ $(document).ready(function() {
     $('#products .items').addClass('grid-group-item');});
 });
 </script>
+
+<<script>
+    $('.fly').owlCarousel({
+    loop: true,
+        animateOut: 'slideOutDown',
+        animateIn: 'flipInX',
+        items:1,
+        margin:10,
+        nav: true,
+        stagePadding:30,
+        smartSpeed:450,
+        autoplay:true,
+        //autoplayTimeout:1000,
+        autoplayHoverPause:true,
+        autoHeight:true
+    });
+</script>
+
+<script type="text/javascript">
+    $('.owl-card').owlCarousel({
+        loop: true,
+        margin: 0,
+        nav: true,
+        autoWidth: false,
+        navText: ['<i class="fa fa-arrow-circle-left" title="Anterior"></i>', '<i class="fa  fa-arrow-circle-right" title="Siguiente"></i>'],
+        responsive: {
+            0: {
+                items: 1
+            },
+            500: {
+                items: 2,
+                margin: 20
+            },
+            800: {
+                items: 3,
+                margin: 20
+            },
+            1000: {
+                items: 4,
+                margin: 20
+            }
+        }
+    })
+
+</script>
+
 <script type="text/javascript">
     $('.owl-carousel').owlCarousel({
         loop: true,
@@ -39,6 +85,7 @@ $(document).ready(function() {
     })
 
 </script>
+
 <script type="text/javascript">
     $(document).on('click', '[data-toggle="lightbox"]', function(event) {
         event.preventDefault();
@@ -48,9 +95,9 @@ $(document).ready(function() {
 </script>
 
 <script type="text/javascript">
-     $(window).load(function(){        
+     $(window).load(function(){
    $('#myModal').modal('show');
-    }); 
+    });
 </script>
 
 <script>

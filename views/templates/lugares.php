@@ -3,8 +3,8 @@
         <?php include "views/templates/header.php";?>
         <div class="text-encabezado text-center">
             <div class="container">
-                <?php 
-                $id_atractivo = $_GET["id"]; 
+                <?php
+                $id_atractivo = $_GET["id"];
                 if (is_numeric($id_atractivo)){
                     $view = (new Atractivos)->serviceAtractivoController($id_atractivo);
                     $foto = $view['fotos'];
@@ -12,7 +12,7 @@
                 else{
                     header("location:index");
                     //echo '<script> window.location = "index"</script>';
-                }                               
+                }
                 echo '<h1 class="display- 4 wow bounceIn">'.$view["titulo"].'</h1>
                 <p class="wow bounceIn" data-wow-delay=".3s">'.$view["direccion"].' - '.$view["ubicacion"].' </p>
             </div>
@@ -29,21 +29,21 @@
         <div class="container">
             <div class="row">
             <p class="text-justify mt-2">'.$view["detalle"].'</p>
-            <div id="map" style="width:100%;height:360px;"></div>';?>        
-            <?php 
+            <div id="map" style="width:100%;height:360px;"></div>';?>
+            <?php
             foreach($foto as $row => $item){
                 echo '<div class="col-lg-3 col-sm-3 col-6 pb-3"  style="float: left;">
-                    <a class="" href="http://moqueguaturismo.gob.pe/'.$item["foto_url"].'" data-fancybox="group" data-caption="'.$item["titulo"].'">
-                    	<img class="w-100 img-thumbnail" data-position="'.$item["id"].'" src="http://moqueguaturismo.gob.pe/'.$item["foto_url"].'" alt="'.$item["titulo"].'">
+                    <a class="" href="'.$_ENV['API_IMG'].PUBLIC_.$item["foto_url"].'" data-fancybox="group" data-caption="'.$item["titulo"].'">
+                    	<img class="w-100 img-thumbnail" data-position="'.$item["id"].'" src="'.$_ENV['API_IMG'].PUBLIC_.$item["foto_url"].'" alt="'.$item["titulo"].'">
 			        </a>
 		        </div>';
             }
-            ?>       
+            ?>
         <?php echo'
             </div>
         </div>
     </main>'?>
-    <?php 
+    <?php
     echo '
     <script>
         function initMap() {
