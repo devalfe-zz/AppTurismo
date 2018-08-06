@@ -27,9 +27,11 @@
                         <a href="index.php?action=model&id=8">Eventos</a>
                         <a href="index.php?action=media&id=1">Galeria</a>
                         <a href="index.php?action=media&id=0">Videos</a>
+                        <a href="public/personajes/personajes.html">Personajes Ilustres</a>
+
                     </div>
                 </li>
-                <li class="<?php if ( $clink==" servicio ") { echo "active "; } ?>"><a href="guia/index.html">Guía Turística</a>
+                <li class="<?php if ( $clink==" servicio ") { echo "active "; } ?>"><a href="public/guia/index.html">Guía Turística</a>
                 </li>
                 <li class="<?php if ( $clink=='contactenos') { echo 'active'; } ?>"><a href="index.php?action=contactenos">Contáctenos</a>
                 </li>

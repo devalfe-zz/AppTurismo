@@ -12,7 +12,8 @@
             <!-- <img class="figure" src="<?php //echo PUBLIC_; ?>/images/fondo-principalx.jpg" data-color="lightblue" alt="slide1"> -->
             <div class="ParallaxVideo">
                 <video class="slider-video" playsinline autoplay muted loop>
-                    <source src="<?php echo PUBLIC_; ?>videos/CRISTO-BLANCO.mp4" type="video/mp4">
+                    <source src="<?php echo PUBLIC_; ?>videos/iniciovideo.mp4" type="video/mp4">
+
                 </video>
             </div>
             <div class="carousel-caption carousel-style-left">
@@ -35,8 +36,8 @@
                         <a href="index.php" class="logo-moque hidden-xs-down hidden-md-down">
                             <img src="<?php echo PUBLIC_; ?>images/moque.svg" alt="logomoquegua" class="wow fadeInUp" data-wow-duration="2s" data-wow-delay=".5s">
                         </a>
-                        <h3 class="display-6 wow fadeInUp" data-wow-duration="2s" data-wow-delay="1s">Valle hermoso y escondido allá entre áridos desiertos; risueño Edén, donde moran en consorcio sempiterno la blanca quietud del ánimo y el dulce contentamiento. La tibieza de sus auras, tu limpio cendal etéreo: - acoge el ardiente voto que, desde antípodo suelo, entusiasmado te envía en alas de raudo viento quien más amor te consagra. Sean de hoy más en copas de oro libado en el mundo entero; y que el alma que cobres, y el bien que para ti anhelo, jamás el helado soplo pueda robarte el tiempo</h3>
-                        <p class="text-uppercase wow fadeInUp" data-wow-duration="2s" data-wow-delay="2s">Al valle de Moquegua Juan Arguedas Prada </p>
+                        <h3 class="display-6 wow fadeInUp hidden-xs-down hidden-md-down " data-wow-duration="2s" data-wow-delay="1s">Valle hermoso y escondido allá entre áridos desiertos; risueño Edén, donde moran en consorcio sempiterno la blanca quietud del ánimo y el dulce contentamiento. La tibieza de sus auras, tu limpio cendal etéreo: - acoge el ardiente voto que, desde antípodo suelo, entusiasmado te envía en alas de raudo viento quien más amor te consagra. Sean de hoy más en copas de oro libado en el mundo entero; y que el alma que cobres, y el bien que para ti anhelo, jamás el helado soplo pueda robarte el tiempo</h3>
+                        <p class="text-uppercase wow fadeInUp hidden-xs-down hidden-md-down " data-wow-duration="2s" data-wow-delay="2s">Al valle de Moquegua Juan Arguedas Prada </p>
                     </div>
                 </div>
             </div>
@@ -49,8 +50,8 @@
                         <a href="index.html" class="logo-moque hidden-xs-down hidden-md-down">
                             <img src="<?php echo PUBLIC_; ?>images/moque.svg" alt="logomoquegua" class="wow fadeInUp" data-wow-duration="2s" data-wow-delay=".5s">
                         </a>
-                        <h3 class="display-6 wow fadeInUp" data-wow-duration="2s" data-wow-delay="1s">La esmeralda de un valle sobre la felpa lila. el puño gigantesco de un cerro vigila,el rumor misterioso del tiempo que pasó. Un cielo de cobalto. Y una ciudad dormida -tal como el maleficio que algún brujo le dio-, fingiendo ser el sueño de un hada perseguida por su pasión suicida, en la angustiosa huida, como en la figa de la Cenicienta, olvidó </h3>
-                        <p class="text-uppercase wow fadeInUp" data-wow-duration="2s" data-wow-delay="2s">Ciudad dormida Roberto MacLean Estenós </p>
+                        <h3 class="display-6 wow fadeInUp hidden-xs-down hidden-md-down" data-wow-duration="2s" data-wow-delay="1s">La esmeralda de un valle sobre la felpa lila. el puño gigantesco de un cerro vigila,el rumor misterioso del tiempo que pasó. Un cielo de cobalto. Y una ciudad dormida -tal como el maleficio que algún brujo le dio-, fingiendo ser el sueño de un hada perseguida por su pasión suicida, en la angustiosa huida, como en la figa de la Cenicienta, olvidó </h3>
+                        <p class="text-uppercase wow fadeInU hidden-xs-down hidden-md-down" data-wow-duration="2s" data-wow-delay="2s">Ciudad dormida Roberto MacLean Estenós </p>
                     </div>
                 </div>
             </div>
@@ -153,7 +154,7 @@
 
                     <video class="embed-responsive-item" controls="true">
 
-                        <source src="videos/CARNAVAL.mp4" type="video/mp4"></source>
+                        <source src="<?php echo PUBLIC_; ?>videos/CARNAVAL.mp4" type="video/mp4"></source>
 
                     </video>
 
