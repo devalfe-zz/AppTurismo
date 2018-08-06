@@ -44,30 +44,16 @@ class Atractivos {
         $resul = (new AtractivosModels)->serviceAtractivosModels($api);
         $lugares = $resul['data'];
         //var_dump ($lugares);
-        echo '<div class="container">
-                <div id="products" class="row list-group d-flex" style="float-right">';
                     foreach($lugares as $row => $item){
-                    echo'<div class="items col-lg-4 col-md-6 grid-group-item">
-                        <div class="thumbnail card-01 col-12">
-                            <img class="group list-group-image d-block img-fluid" src="'.$_ENV['API_IMG'].PUBLIC_.$item["foto_url"].'" alt="'.$item["titulo"].'"/>
-                            <div class="caption">
-                                <h4 class="group inner list-group-item-heading">'.$item["titulo"].'</h4>
-                                <p class="group inner list-group-item-text">'.$item["descripcion"].'</p>
-                                <div class="row">
-                                    <div class="col-12 col-md-6">
-                                        <p>'.$item["direccion"].'</p>
-                                    </div>
-                                    <div class="col-12 col-md-6 d-flex btn-list">
-                                        <a class="btn btn-success" href="index.php?action=lugares&id='.$item["id"].'">Más</a>
-                                    </div>
-                                </div>
+                    echo'<article class="col-lg-4 col-md-6">
+                            <div class="card card-01">
+                                <img class="card-img-top" src="'.$_ENV['API_IMG'].PUBLIC_.$item['foto_url'].'" alt="">
+                                <h3 class="m-2"><a href="index.php?action=lugares&id='.$item["id"].'">'.$item["titulo"].'</a></h3>
+                                <p class="d-flex m-2">'.$item["descripcion"].'</p>
+                                <a href="index.php?action=lugares&id='.$item["id"].'" class="btn btn-secondary hidden-sm-down">Mas Informacion</a>
                             </div>
-                        </div>
-                    </div>';
+                        </article>';
                     }
-           echo '</div>
-        </div>
-';
 
         // echo '<main class="container d-flex flex-wrap justify-content-center align-content-center align-items-center text-justify">
         //         <div class="well well-sm">

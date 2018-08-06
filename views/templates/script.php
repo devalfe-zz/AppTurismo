@@ -22,6 +22,7 @@ $(document).ready(function() {
         items:1,
         margin:10,
         nav: true,
+        navText: ['<i class="fa fa-arrow-circle-left" title="Anterior"></i>', '<i class="fa  fa-arrow-circle-right" title="Siguiente"></i>'],
         stagePadding:30,
         smartSpeed:450,
         autoplay:true,

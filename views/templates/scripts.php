@@ -15,7 +15,7 @@
 <script src="<?php echo PUBLIC_; ?>js/fullpage.min.js"></script>
 <script src="<?php echo PUBLIC_; ?>js/jquery.fancybox.min.js"></script>
 
-<<script>
+<script>
     var myFullpage = new fullpage('#fullpage', {
         verticalCentered: true,
         anchors: ['firstPage', 'secondPage', '3rdPage'],

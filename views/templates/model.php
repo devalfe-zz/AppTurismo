@@ -18,7 +18,7 @@ if (count($view)==0){
             <div class="container">
                 <row>
                     <div class=" bar col-12 text-right">
-                        <a href="index.php">Inicio</a> » 
+                        <a href="index.php">Inicio</a> »
                     </div>
                 </row>
             </div>
@@ -27,15 +27,15 @@ if (count($view)==0){
     <section  id="model">
         <div class="container">
             <div class="row">
-                
+
             </div>
         </div>
-    </section>';  
+    </section>';
 }
 else{
 foreach ($view as $key => $value) {
     $categoria = $value['categorias'];
-} 
+}
 echo '
 <div class="internas" >
     <section class="bienvenidos">';
@@ -57,30 +57,21 @@ echo '
         </div>
     </div>
 
-<section  id="model">
+<main class="lugar py-2">
     <div class="container">
-        <div class="row">';    
-        
-            foreach($view as $row => $item){     
-            echo'<div class="items col-lg-4 col-md-6 grid-group-item">
-                    <div class="thumbnail card-01 col-12">
-                          <img class="group list-group-image d-block img-fluid" src="'.$_ENV['API_IMG'].PUBLIC_.$item["foto_url"].'" alt="'.$item["titulo"].'" />
-                            <div class="caption">
-                                <h4 class="group inner list-group-item-heading">'.$item["titulo"].'</h4>
-                                <p class="group inner list-group-item-text">'.$item["descripcion"].'</p>
-                                <div class="row">
-                                    <div class="col-12 col-md-6">
-                                        <p>'.$item["direccion"].'</p>
-                                    </div>
-                                <div class="col-12 col-md-6 d-flex btn-list">
-                                        <a class="btn btn-success" href="index.php?action=lugares&id='.$item["id"].'">Más</a>
-                                </div>
-                            </div>
-                        </div>
-                     </div>
-                </div>';
-           } 
+        <div class="row">';
+            foreach($view as $row => $item){
+           echo'<article class="col-lg-4 col-md-6">
+                    <div class="card card-01">
+                        <img class="card-img-top" src="'.$_ENV['API_IMG'].PUBLIC_.$item['foto_url'].'" alt="">
+                        <h3 class="m-2"><a href="index.php?action=lugares&id='.$item["id"].'">'.$item["titulo"].'</a></h3>
+                        <p class="d-flex m-2">'.$item["descripcion"].'</p>
+                        <a href="index.php?action=lugares&id='.$item["id"].'" class="btn btn-secondary hidden-sm-down">Mas Informacion</a>
+                    </div>
+                </article>
+           ';
+           }
     echo'</div>
     </div>
-</section>';
+</main>';
 }

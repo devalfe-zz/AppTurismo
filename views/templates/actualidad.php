@@ -2,24 +2,25 @@
 $view = (new ActualidadController)->serviceActualidadController();
 
 echo '
-<section class="actualidad py-2">
+<main class="actualidad  py-2">
     <div class="container">
         <h2 class="text-center font-weight-bold">Actualidad</h2>
         <div class="row">
-            <div class="owl-card owl-carousel">';
+             <div class="owl-card owl-carousel">';
         foreach ($view as $key => $item) {
-        echo'<article class="card profile-card-5 d-flex flex-md-column">
-                    <div class="card-img-block">
-    		            <img class="card-img-top" src="'.$_ENV['API_IMG'].PUBLIC_.$item['foto_url'].'" alt="">
-    		        </div>
-                    <div class="card-block">
-                        <h5 class="card-title">'.$item['titulo'].'</h5>
-                    <p class="card-text">'.$item["descripcion"].'</p>
-                    <a href="#" class="btnMas btn btn-secondary hidden-sm-down btn-block">Más información.</a>
-                    </div>
+        echo'
+            <article>
+                <div class="card">
+
+                <img class="card-img-top" src="'.$_ENV['API_IMG'].PUBLIC_.$item['foto_url'].'" alt="">
+                <h3><a class="m-2" href="index.php?action=lugares&id='.$item["id"].'">'.$item["titulo"].'</a></h3>
+                <p class="d-flex m-2">'.$item["descripcion"].'</p>
+                <a href="index.php?action=lugares&id='.$item["id"].'" class="btn btn-secondary">Mas Informacion</a>
+                </div>
             </article>';
         }
     echo'</div>
         </div>
     </div>
-</section>';
+</main>
+';
