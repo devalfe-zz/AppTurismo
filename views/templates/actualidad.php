@@ -10,12 +10,14 @@ echo '
         foreach ($view as $key => $item) {
         echo'
             <article>
-                <div class="card">
+                <div class="card card-01">
 
                 <img class="card-img-top" src="'.$_ENV['API_IMG'].PUBLIC_.$item['foto_url'].'" alt="">
-                <h3><a class="m-2" href="index.php?action=lugares&id='.$item["id"].'">'.$item["titulo"].'</a></h3>
-                <p class="d-flex m-2">'.$item["descripcion"].'</p>
+                <div class="card-body">
+                <h5  class="card-title">'.$item["titulo"].'</h5>
+                <p class="card-text d-flex">'.$item["descripcion"].'</p>
                 <a href="index.php?action=lugares&id='.$item["id"].'" class="btn btn-secondary">Mas Informacion</a>
+                </div>
                 </div>
             </article>';
         }

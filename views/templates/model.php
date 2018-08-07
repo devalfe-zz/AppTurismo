@@ -63,11 +63,13 @@ echo '
             foreach($view as $row => $item){
            echo'<article class="col-lg-4 col-md-6">
                     <div class="card card-01">
-                        <img class="card-img-top" src="'.$_ENV['API_IMG'].PUBLIC_.$item['foto_url'].'" alt="">
-                        <h3 class="m-2"><a href="index.php?action=lugares&id='.$item["id"].'">'.$item["titulo"].'</a></h3>
-                        <p class="d-flex m-2">'.$item["descripcion"].'</p>
-                        <a href="index.php?action=lugares&id='.$item["id"].'" class="btn btn-secondary hidden-sm-down">Mas Informacion</a>
-                    </div>
+                                <img class="card-img-top" src="'.$_ENV['API_IMG'].PUBLIC_.$item['foto_url'].'" alt="">
+                                <div class="card-body">
+                                <h4 class="card-title">'.$item["titulo"].'</h4>
+                                <p class="card-text d-flex">'.$item["descripcion"].'</p>
+                                </div>
+                                <a href="index.php?action=lugares&id='.$item["id"].'" class="btn btn-secondary hidden-sm-down">Mas Informacion</a>
+                            </div>
                 </article>
            ';
            }
