@@ -70,66 +70,7 @@
 
 
 </section>
- <!-- <div id="myModal" class="modal fade" role="dialog">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title"><a href="#">VENDIMIA 2018</a></h4>
-      </div>
-      <div class="modal-body">
-        <a href="#">
-              <iframe src="http://docs.google.com/gview?url=http://www.moqueguaturismo.gob.pe/programa/PROGRAMAVENDIMIA2018.pdf&embedded=true" style="width:770px; height:500px;" frameborder="0"></iframe>
-        </a>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-  -->
 
-<!-- <div id="myModal" class="modal fade" role="dialog">
-
-  <div class="modal-dialog modal-lg">
-
-
-
-    <div class="modal-content">
-
-      <div class="modal-header">
-
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-
-        <h4 class="modal-title"><a href="http://www.moqueguaturismo.gob.pe/programa/v1">Programa Aniversario</a></h4>
-
-      </div>
-
-      <div class="modal-body">
-
-        <a href="http://www.moqueguaturismo.gob.pe/programa/v1">Programa Aniversario
-
-            <iframe src="http://docs.google.com/gview?url=http://www.moqueguaturismo.gob.pe/programa/PROGRAMA476.pdf&embedded=true" style="width:770px; height:500px;" frameborder="0"></iframe>
-
-        </a>
-
-      </div>
-
-      <div class="modal-footer">
-
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-
-      </div>
-
-    </div>
-
-
-
-  </div>
-
-</div>
- -->
 <section class="capital py-2" id="capi" tabindex="-1">
 
     <div class="container">
@@ -154,7 +95,7 @@
 
                     <video class="embed-responsive-item" controls="true">
 
-                        <source src="<?php echo PUBLIC_; ?>videos/CARNAVAL.mp4" type="video/mp4"></source>
+                        <source src="<?php echo PUBLIC_; ?>videos/CRISTO-BLANCO.mp4" type="video/mp4"></source>
 
                     </video>
 
@@ -162,167 +103,7 @@
 
             </div>
 
-
-
-            <!-- <div class="row col-12"> -->
-
-
-
-
-         <!--
-    <section class="noticia py-2">
-
-        <div class="container">
-
-            <div class="row"> -->
-
-                <!-- <div class="carousel  col-md-12 col-lg-9" id="noticias">
-
-                    <div class="carousel-inner">
-
-                        <div class="carousel-item active">
-
-                            <a href="#"><img class="w-100 h-100 d-block img-fluid" src="images/noticias/n1.jpg" alt="notcias1"></a>
-
-                            <div class="carousel-caption">
-
-                                <a href="#"><h4>Día Mundial del Turismo: Moquegua apuesta por conectividad y sostenibilidad</h4></a>
-
-                                <p>Hoy jueves 28 de setiembre se realizará el programa por el día mundial del turismo a partir de las 10 de la mañana donde se expondrá la presentación de página web, aplicativo para celular, tótems interactivos y la primera sala del museo del traje.
-
-Donde la municipalidad viene impulsando la sostenibilidad y la conectividad contribuyen a afianzar el desarrollo turístico regional, y por ello la municipalidad provincial de mariscal nieto viene trabajando en proyectos que promueven la integración de sus principales destinos, atractivos y productos turísticos de toda la región.
-
-</p>
-
-                            </div>
-
-                        </div>
-
-                        <div class="carousel-item">
-
-                            <a href="#"><img class="d-block  w-100 h-100img-fluid" src="images/noticias/nx2.jpg" alt="notcias1"></a>
-
-                            <div class="carousel-caption">
-
-                                <a href="#"><h4>World Travel Awards 2017: Perú cuenta con 29 nominaciones</h4></a>
-
-                                <p>El próximo 10 de diciembre se realizará en la ciudad de Phu Quoc, en Vietnam, la edición mundial 2017 de World Travel Awards (WTA), considerado como los “Premios Oscar del Turismo”.En este prestigioso certamen nuestro país está nominado en 29 categorías, según informó este lunes PromPerú. Dicha institución explicó que el Perú tiene 21 calificaciones para el sector privado, entre hoteles, aeropuertos, cruceros, agencias de viaje; y 8 para el país.</p>
-
-                            </div>
-
-                        </div>
-
-                        <div class="carousel-item">
-
-                            <a href="#"><img class="d-block w-100 h-100 img-fluid" src="images/noticias/nx3.jpg" alt="notcias1"></a>
-
-                            <div class="carousel-caption">
-
-                                <a href="#"><h4>Día Mundial del Turismo: Perú apuesta por conectividad y sostenibilidad</h4></a>
-
-                                <p>La sostenibilidad y la conectividad contribuyen a afianzar el desarrollo turístico regional y nacional, y por ello el Ejecutivo viene trabajando en proyectos que promueven la integración de sus principales destinos, atractivos y productos turísticos.</p>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-                 -->
-
-
-
-                    <!-- <ul class="list-group col-3">
-
-                        <li data-target="#noticias" data-slide-to="0" class="list-group-item active">CONCEJO APROBÓ DECLARATORIA DE EMERGENCIA DE LA PROVINCIA MARISCAL NIETO POR PERIODO DE LLUVIAS</li>
-
-                        <li data-target="#noticias" data-slide-to="1" class="list-group-item ">ALCALDE DECLARÓ EN SESIÓN PERMANENTE PLATAFORMA DE DEFENSA CIVIL DE LA PROVINCIA MARISCAL NIETO</li>
-
-                        <li data-target="#noticias" data-slide-to="2" class="list-group-item ">COMUNA PROVINCIAL REALIZA ACOPIO DE ROCAS PARA POSTERIOR ENROCADO DE RIO</li>
-
-                    </ul> -->
-
-               <!--  <div class="owl-carousel">
-
-                        <a data-toggle="modal" data-target="#exampleModal1" >
-
-                        <img class="img-thumbnail" src="images/santa1.jpg" alt="santa1"></a>
-
-                        <a data-toggle="modal" data-target="#exampleModal2" ><img class="img-thumbnail" data-toggle="modal" data-target="#exampleModal" src="images/santa2.jpg" alt="santa2"></a>
-
-                        <a data-toggle="modal" data-target="#exampleModal3" ><img class="img-thumbnail" data-toggle="modal" data-target="#exampleModal" src="images/santaok.jpg" alt="santa3"></a>
-
-                </div> -->
-
-                <!-- Button trigger modal -->
-
-
-
-<!-- Modal -->
-<!--
-<div class="modal fade bd-example-modal-lg" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModal3Label" aria-hidden="true">
-
-  <div class="modal-dialog" role="document">
-
-    <div class="modal-content">
-
-            <img class="w-100 img-fluid" data-toggle="modal" data-target="#Modal1" src="images/santa1.jpg" alt="santa1">
-
-    </div>
-
-  </div>
-
-</div> -->
-
-<!-- Modal -->
-
-<!-- <div class="modal fade bd-example-modal-lg" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModal3Label" aria-hidden="true">
-
-  <div class="modal-dialog" role="document">
-
-    <div class="modal-content">
-
-            <img class="img-fluid" data-toggle="modal" data-target="#Modal1" src="images/santa2.jpg" alt="santa2">
-
-    </div>
-
-  </div>
-
-</div> -->
-
-<!-- Modal -->
-<!--
-<div class="modal fade bd-example-modal-lg" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModal3Label" aria-hidden="true">
-
-  <div class="modal-dialog" role="document">
-
-    <div class="modal-content">
-
-        <img class="img-fluid" data-toggle="modal" data-target="#Modal1" src="images/santaok.jpg" alt="santa3">
-
-    </div>
-
-  </div>
-
-</div>
-
-               </div>
-
-            </div>
-
-        </div>
-
-    </section> -->
-
-
-
-
-
-
-
-            </div>
+       </div>
 
         </div>
 
@@ -374,7 +155,7 @@ Donde la municipalidad viene impulsando la sostenibilidad y la conectividad cont
 
                     <div class="eleccion">
 
-                        <a href="index.php?action=atractivos"><h4>MOQUEGUA MONUMENTAL</h4></a>
+                        <a href="index.php?action=atractivos&page=1"><h4>MOQUEGUA MONUMENTAL</h4></a>
 
                         <p class="hidden-sm-down">Lugares maravillosos que puede visitar en la ciudad.</p>
 

@@ -76,7 +76,7 @@
             La visita la puede realizar en uno o dos días, dependiendo del tiempo que disponga. Podrá visitar los pueblos de Carumas, con su iglesia virreinal de San Felipe (levantada en piedra); Cuchumbaya, con sus aguas termales y cataratas y, los pueblos de Calacoa y Bellavista, con sus impresionantes geiseres, con una temperatura promedio de 75°C, y con una altura aproximada de 3 metros.
             El imponente cañón es hábitat del águila andina, espectacular ave rapaz; así también, podrá observar la flora y fauna de la zona.Si dispone de tiempo le sugerimos pueda ascender al cráter del volcán Ticsani y observar las dos lagunas a sus faldas, y si tiene suerte, observar al suri o ñandú americano, cuya población principal se extiende por toda esta zona.
         </p>
-        <iframe width="1200" height="700
+        <iframe width="1000" height="700
         "src="public/tixani/index.html" frameborder="0" allowfullscreen></iframe>
 
       </div>

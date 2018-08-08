@@ -1,7 +1,5 @@
 <?php
-
 class M_linkpages {
-
     static public function M_f_linkPages($mlink){
 
         if ( $mlink=="nosotros" ||
@@ -28,7 +26,6 @@ class M_linkpages {
             $mlink=="partial" ||
             $mlink=="model" ||
             $mlink=="media" ||
-
             $mlink=="folclore"
         ){
             $module = "views/templates/".$mlink.".php";
@@ -55,5 +52,5 @@ class M_linkpages {
 
 }
 
-?>
+
 

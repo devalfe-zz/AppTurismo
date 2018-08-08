@@ -25,9 +25,9 @@ class Ingreso{
                     $secret = "6LfKZiAUAAAAABV6ZhhYBU8xXFhveeaj4SpxH-CC";
                     $response = $_POST["g-recaptcha-response"];
                     $remoteip = $_SERVER["REMOTE_ADDR"];
-                    
+
                     $result = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=$secret&response=$response&remoteip=$remoteip");
-                    
+
                     $array = json_decode($result,true);
                     if($array["success"]){
                         $intentos = 0;
@@ -52,7 +52,7 @@ class Ingreso{
 						$_SESSION["photo"] = $respuesta["photo"];
 						$_SESSION["rol"] = $respuesta["rol"];
                         echo '<script> window.location = "inicio"</script>';
-						#header("location:inicio");
+					    //?header("location:inicio");
 
 					}
 
