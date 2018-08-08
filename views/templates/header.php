@@ -27,7 +27,7 @@
                         <a href="index.php?action=model&id=8">Eventos</a>
                         <a href="index.php?action=media&id=1">Galeria</a>
                         <a href="index.php?action=media&id=0">Videos</a>
-                        <a href="index.php?action=gastronomia">Gastronomia</a>
+                        <a href="index.php?action=gastronomia&id=12">Gastronomia</a>
                         <a href="public/personajes/personajes.html">Personajes Ilustres</a>
 
                     </div>

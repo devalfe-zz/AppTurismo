@@ -236,8 +236,8 @@ include "views/templates/actualidad.php"; ?>
 				<img src="<?php echo PUBLIC_; ?>images/proyecto2.jpg" alt="Naturaleza"></a>
             <a href="index.php?action=arquitectura"><h4>ARQUITECTURA</h4>
 				<img src="<?php echo PUBLIC_; ?>images/proyecto1.jpg" alt="Arquitectura"></a>
-            <a href="index.php?action=gastronomia"><h4>GASTRONOMÍA</h4>
-				<img src="<?php echo PUBLIC_; ?>images/proyecto3.jpg" alt="Gastronomía"></a>
+            <a href="index.php?action=gastronomia&id=12"><h4>GASTRONOMÍA</h4>
+				<img src="<?php echo PUBLIC_; ?>images/food/cuy.jpg" alt="Gastronomía"></a>
             <a href="index.php?action=religiosidad"><h4>RELIGIOSIDAD Y MISTICISMO</h4>
                 <img src="<?php echo PUBLIC_; ?>images/proyecto4.jpg" alt="Religiosidad y Misticismo"></a>
             <a href="index.php?action=aventura"><h4>AVENTURA</h4>
