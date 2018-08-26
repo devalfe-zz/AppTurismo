@@ -238,10 +238,12 @@ include "views/templates/actualidad.php"; ?>
 				<img src="<?php echo PUBLIC_; ?>images/proyecto1.jpg" alt="Arquitectura"></a>
             <a href="index.php?action=gastronomia&id=12"><h4>GASTRONOMÍA</h4>
 				<img src="<?php echo PUBLIC_; ?>images/food/cuy.jpg" alt="Gastronomía"></a>
-            <a href="index.php?action=religiosidad"><h4>RELIGIOSIDAD Y MISTICISMO</h4>
+            <a href="index.php?action=religiosidad"><h5>RELIGIOSIDAD Y MISTICISMO</h5>
                 <img src="<?php echo PUBLIC_; ?>images/proyecto4.jpg" alt="Religiosidad y Misticismo"></a>
             <a href="index.php?action=aventura"><h4>AVENTURA</h4>
-            <img src="<?php echo PUBLIC_; ?>images/proyecto5.jpg" alt="Aventura"></a>
+                <img src="<?php echo PUBLIC_; ?>images/slider.png" alt="Aventura"></a>
+            <a href="index.php?action=artesania"><h4>ARTESANIA</h4>
+                <img src="<?php echo PUBLIC_; ?>images/arte1.jpg" alt="Artesania"></a>
         </div>
     </div>
 </section>

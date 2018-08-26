@@ -25,6 +25,7 @@ class M_linkpages {
             $mlink=="lugares" ||
             $mlink=="partial" ||
             $mlink=="model" ||
+            $mlink=="artesania" ||
             $mlink=="media" ||
             $mlink=="folclore"
         ){

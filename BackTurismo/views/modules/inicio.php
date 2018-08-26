@@ -20,7 +20,7 @@ include "views/modules/cabezote.php";
 
     <!--=====================================
 
-INICIO       
+INICIO
 
 ======================================-->
 
@@ -45,52 +45,23 @@ INICIO
 
 
         <ul>
-
-
-
             <li class="botonesInicio">
-
-
-
                 <a href="slide">
-
                     <div style="background:#e74c3c">
-
                         <span class="fa fa-toggle-right"></span>
-
                         <p>Slide</p>
-
                     </div>
-
                 </a>
-
-
-
             </li>
-
-
 
             <li class="botonesInicio">
-
-
-
                 <a href="articulos">
-
                     <div style="background:#2ecc71">
-
                         <span class="fa fa-file-text-o"></span>
-
                         <p>Atractivos Turisticos</p>
-
                     </div>
-
                 </a>
-
-
-
             </li>
-
-
 
             <li class="botonesInicio">
 
@@ -111,9 +82,6 @@ INICIO
 
 
             </li>
-
-
-
             <li class="botonesInicio">
 
 
@@ -133,7 +101,6 @@ INICIO
 
 
             </li>
-
             <li class="botonesInicio">
 
 
@@ -153,7 +120,6 @@ INICIO
 
 
             </li>
-
             <li class="botonesInicio">
 
 
@@ -173,7 +139,6 @@ INICIO
 
 
             </li>
-
             <li class="botonesInicio">
 
 
@@ -193,7 +158,6 @@ INICIO
 
 
             </li>
-
             <li class="botonesInicio">
 
 
@@ -213,7 +177,6 @@ INICIO
 
 
             </li>
-
             <li class="botonesInicio">
                 <a href="artesania">
                     <div style="background:rgb(245, 175, 75)">
@@ -222,9 +185,6 @@ INICIO
                     </div>
                 </a>
             </li>
-
-
-
             <li class="botonesInicio">
 
 
@@ -244,10 +204,6 @@ INICIO
 
 
             </li>
-           
-
-
-
         </ul>
 
 
