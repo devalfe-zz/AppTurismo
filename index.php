@@ -1,5 +1,5 @@
 <?php
-define ('PUBLIC_','/public/dist/');
+define ('PUBLIC_','/public/');
 define('DEV_ENV', 'development');
 
 require_once 'vendor/autoload.php';
@@ -15,7 +15,7 @@ require_once "controllers/controller.php";
 require_once "controllers/gestoratractivos.php";
 require_once "controllers/gestorGaleria.php";
 require_once "controllers/gestorMensajes.php";
-require_once "controllers/gestorActualidad.php"; 
+require_once "controllers/gestorActualidad.php";
 require_once "controllers/gestorServicio.php";
 
 //require_once "controllers/gestorPrograma.php";
