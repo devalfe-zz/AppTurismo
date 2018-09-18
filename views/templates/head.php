@@ -29,7 +29,7 @@
     <link rel="stylesheet"href="<?php echo PUBLIC_; ?>css/bootstrap.css">
     <link rel="stylesheet"href="<?php echo PUBLIC_; ?>css/fullpage.min.css">
     <link rel="stylesheet"href="<?php echo PUBLIC_; ?>css/jquery.fancybox.min.css">
-    <link rel="stylesheet"href="<?php echo PUBLIC_; ?>css/app.css" />
+    <link rel="stylesheet"href="<?php echo PUBLIC_; ?>css/style.css" />
     <script src="<?php echo PUBLIC_; ?>js/sweetalert.min.js"></script>
     <style>
         .swiper-container {

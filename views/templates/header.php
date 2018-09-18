@@ -29,10 +29,15 @@
                         <a href="index.php?action=media&id=0">Videos</a>
                         <a href="index.php?action=gastronomia&id=12">Gastronomia</a>
                         <a href="public/personajes/personajes.html">Personajes Ilustres</a>
-
                     </div>
                 </li>
-                <li class="<?php if ( $clink==" servicio ") { echo "active "; } ?>"><a href="public/guia/index.html">Guía Turística</a>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">Guía y Revistas</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                        <a href="public/guia/index.html">Guía Turística</a>
+                        <a href="public/revista/index.html">Revista</a>
+                    </div>
                 </li>
                 <li class="<?php if ( $clink=='contactenos') { echo 'active'; } ?>"><a href="index.php?action=contactenos">Contáctenos</a>
                 </li>

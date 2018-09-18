@@ -1,9 +1,10 @@
 /node_modules
 /videos
-/images
+/public/images
 /public/videos
 /public/css
 /public/js
+/public/fonts
 
 /public/images/bodegas
 /public/images/portada

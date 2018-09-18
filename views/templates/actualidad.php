@@ -1,5 +1,6 @@
 <?php
-$view = (new ActualidadController)->serviceActualidadController();
+//?$view = (new ActualidadController)->serviceActualidadController();
+$view = (new ServicioController)->ApiServices('11');
 
 echo '
 <main class="actualidad  py-2">
