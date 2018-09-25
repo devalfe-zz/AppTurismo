@@ -129,9 +129,9 @@
 
                     <div class="eleccion">
 
-                        <a href="index.php?action=historia"><h4>HISTORIA</h4>
+                        <a href="index.php?action=historia"><h4>HISTORIA</h4></a>
 
-                                 <p class="hidden-sm-down">Conoce la ciudad, su gente e historia.</p></a> </div>
+                                 <p class="hidden-sm-down">Conoce la ciudad, su gente e historia.</p></div>
 
                 </li>
 
@@ -141,9 +141,9 @@
 
                     <div class="eleccion">
 
-                        <a href="index.php?action=prehispanica"><h4>MOQUEGUA PREHISPÁNICA</h4>
+                        <a href="index.php?action=prehispanica"><h4>MOQUEGUA PREHISPÁNICA</h4></a>
 
-                            <p class="hidden-sm-down">Un pasado prehispánico que se remonta a los 12,000 a.C.</p></a>
+                            <p class="hidden-sm-down">Un pasado prehispánico que se remonta a los 12,000 a.C.</p>
 
                     </div>
 
@@ -179,9 +179,9 @@
 
                     <div class="eleccion">
 
-                        <a href="index.php?action=nocturna"><h4>MOQUEGUA NOCTURNA</h4>
+                        <a href="index.php?action=nocturna"><h4>MOQUEGUA NOCTURNA</h4></a>
 
-                               <p class="hidden-sm-down">En Moquegua vivirás emociones inolvidables</p></a>
+                               <p class="hidden-sm-down">En Moquegua vivirás emociones inolvidables</p>
 
                     </div>
 
@@ -193,9 +193,9 @@
 
                     <div class="eleccion">
 
-                        <a href="index.php?action=circuitos"><h4>CIRCUITOS TURÍSTICOS</h4>
+                        <a href="index.php?action=circuitos"><h4>CIRCUITOS TURÍSTICOS</h4></a>
 
-                            <p class="hidden-sm-down">Conoce Moquegua, es un sentimiento profundo.</p></a>
+                            <p class="hidden-sm-down">Conoce Moquegua, es un sentimiento profundo.</p>
 
                     </div>
 
@@ -207,9 +207,9 @@
 
                     <div class="eleccion">
 
-                        <a href="fechas.php"><h4>CALENDARIO TURÍSTICO</h4>
+                        <a href="fechas.php"><h4>CALENDARIO TURÍSTICO</h4></a>
 
-                            <p class="hidden-sm-down">Las principales festividades de la región</p></a>
+                            <p class="hidden-sm-down">Las principales festividades de la región</p>
 
                     </div>
 

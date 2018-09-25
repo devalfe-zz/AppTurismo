@@ -5,7 +5,7 @@ $view = (new ServicioController)->ApiServices('11');
 echo '
 <main class="actualidad  py-2">
     <div class="container">
-        <h2 class="text-center font-weight-bold">Actualidad</h2>
+        <h2 class="text-center font-weight-bold text-white">Actualidad</h2>
         <div class="row">
              <div class="owl-card owl-carousel">';
         foreach ($view as $key => $item) {

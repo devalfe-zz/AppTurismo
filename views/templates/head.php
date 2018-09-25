@@ -8,11 +8,11 @@
     <meta name="keywords" content="Moquegua, principales atractivos turisticos, cerro baul, carumas, ilo, glorietas ilo, aguas termales,geoglifos de chen chen, torata, valle del ticsani, san cristobal, omate, museo contisuyo, mariscal nieto, malecon costero, Moquegua">
     <meta name="description" content="Moquegua Peru - Informacion de Turismo en Moquegua Tierra de sol, tradición y amistad.">
     <!-- Chrome, Firefox OS, Opera and Vivaldi -->
-	<meta name="theme-color" content="#F1780D">
+	<meta name="theme-color" content="#811062">
 	<!-- iOS Safari -->
-	<meta name="apple-mobile-web-app-status-bar-style" content="#F1780D">
+	<meta name="apple-mobile-web-app-status-bar-style" content="#811062">
 	<!-- Windows Phone -->
-	<meta name="msapplication-navbutton-color" content="#F1780D">
+	<meta name="msapplication-navbutton-color" content="#811062">
     <link rel="author" href="http://moqueguaturismo.gob.pe/humans.txt" type="text/plain" />
     <meta name="DC.title" content="Moquegua" />
     <meta name="geo.placename" content="Moquegua" />

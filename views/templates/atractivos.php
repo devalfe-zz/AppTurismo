@@ -56,7 +56,7 @@
                                     <h4 class="card-title">'.$item["titulo"].'</h4>
                                     <p class="card-text d-flex">'.$item["descripcion"].'</p>
                                 </div>
-                                <a href="index.php?action=lugares&id='.$item["id"].'" class="btn btn-secondary hidden-sm-down">Mas Informacion</a>
+                                <a href="index.php?action=lugares&id='.$item["id"].'" class="btn btn-secondary">Mas Informacion</a>
                             </div>
                         </article>';
                     }

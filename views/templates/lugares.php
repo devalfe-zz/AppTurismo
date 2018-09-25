@@ -41,6 +41,10 @@
             ?>
         <?php echo'
             </div>
+            <div class="embed-responsive embed-responsive-16by9">
+			    <video autoplay loop class="embed-responsive-item" controls="false">
+				<source src="'.$_ENV['API_IMG'].PUBLIC_.$view["video_url"].'" allowfullscreen></source>
+			</video></div>
         </div>
     </main>'?>
     <?php
