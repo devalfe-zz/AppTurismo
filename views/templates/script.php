@@ -14,7 +14,7 @@ $(document).ready(function() {
 });
 </script>
 
-<<script>
+<script>
     $('.fly').owlCarousel({
     loop: true,
         animateOut: 'slideOutDown',
@@ -32,7 +32,7 @@ $(document).ready(function() {
     });
 </script>
 
-<script type="text/javascript">
+<script>
     $('.owl-card').owlCarousel({
         loop: true,
         margin: 0,

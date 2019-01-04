@@ -28,7 +28,7 @@
     <main class="atractivos">
         <div class="container">
             <div class="row">
-            <p class="text-justify mt-2">'.$view["detalle"].'</p>
+            <p class="text-justify mt-2">'.nl2br($view["detalle"]).'</p>
             <div id="map" style="width:100%;height:360px;"></div>';?>
             <?php
             foreach($foto as $row => $item){
