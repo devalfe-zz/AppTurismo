@@ -7,7 +7,7 @@
     </ol>
     <div class="carousel-inner" role="listbox">
         <div class="carousel-item active">
-            <img class="figure" src="images/fondo-principalx.jpg" data-color="lightblue" alt="slide1">
+            <img class="figure" src="public/images/fondo-principalx.jpg" data-color="lightblue" alt="slide1">
             <div class="carousel-caption carousel-style-left">
                 <div class="text-encabezado text-center text-sm-right">
                     <div class="container">
@@ -21,7 +21,7 @@
             </div>
         </div>
         <div class="carousel-item">
-            <img class="figure" src="images/fondo-principalxx.jpg" data-color="firebrick" alt="slide2">
+            <img class="figure" src="public/images/fondo-principalxx.jpg" data-color="firebrick" alt="slide2">
             <div class="carousel-caption carousel-style-center">
                 <div class="text-encabezado text-center">
                     <div class="container">

@@ -6,6 +6,6 @@ include "templates/head.php";
 echo'<body>';
     $link = (new C_Controller) -> C_f_linkPages();
     include "templates/footer.php";
-    echo'<a data-scroll class="ir-arriba" href="#encabezado"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a>';
     $link = (new C_Controller) -> C_f_scriptPages();
-echo'</body>';
+echo'<a data-scroll class="ir-arriba" href="#encabezado"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a>
+</body>';

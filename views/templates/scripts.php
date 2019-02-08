@@ -1,8 +1,9 @@
-<script src="<?php echo PUBLIC_; ?>js/app.js"></script>
-<script src="<?php echo PUBLIC_; ?>js/vendor/modernizr-2.8.3.min.js"></script>
+
+
 <script src="<?php echo PUBLIC_; ?>js/jquery.min.js"></script>
 <script src="<?php echo PUBLIC_; ?>js/bootstrap.min.js"></script>
 <script src="<?php echo PUBLIC_; ?>js/popper.min.js"></script>
+<script src="<?php echo PUBLIC_; ?>js/tether.min.js"></script>
 <script src="<?php echo PUBLIC_; ?>js/owl.carousel.min.js"></script>
 <script src="<?php echo PUBLIC_; ?>js/wow.min.js"></script>
 <script src="<?php echo PUBLIC_; ?>js/sweetalert.min.js"></script>
@@ -10,7 +11,6 @@
 <script src="<?php echo PUBLIC_; ?>js/jquery.backstretch.min.js"></script>
 <script src="<?php echo PUBLIC_; ?>js/swiper.min.js"></script>
 <script src="<?php echo PUBLIC_; ?>js/swiper.jquery.min.js"></script>
-<script src="<?php echo PUBLIC_; ?>js/scripts.js"></script>
 <script src="<?php echo PUBLIC_; ?>js/ekko-lightbox.min.js"></script>
 <script src="<?php echo PUBLIC_; ?>js/fullpage.min.js"></script>
 <script src="<?php echo PUBLIC_; ?>js/jquery.fancybox.min.js"></script>
@@ -26,7 +26,7 @@
     });
 </script>
 <script  type="text/javascript">
-new SimpleBar(document.getElementById('history'), { autoHide: false });
+// new SimpleBar(document.getElementById('history'), { autoHide: false });
 </script>
 
 <script type="text/javascript">

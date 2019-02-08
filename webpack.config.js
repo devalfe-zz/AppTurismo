@@ -1,4 +1,4 @@
-//  webpack.config.js 
+//  webpack.config.js
 const path = require('path');
 const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
@@ -101,8 +101,8 @@ module.exports = {
             allChunks: true,
         }),
         new BrowserSyncPlugin({
-            // browse to http://localhost:3000/ during development, 
-            // ./public directory is being served 
+            // browse to http://localhost:3000/ during development,
+            // ./public directory is being served
             files: [
                 './public/dist/js/*.js',
                 './public/dist/css/*.css',
@@ -115,7 +115,7 @@ module.exports = {
             logConnections: false,
             reloadOnRestart: true,
             notify: true,
-            open: false, //false, local, external, ui, tunnel
+            open: true, //false, local, external, ui, tunnel
             injectChanges: true,
             logSnippet: true,
             browser: ["google chrome", "firefox"]

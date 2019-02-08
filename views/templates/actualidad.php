@@ -42,5 +42,5 @@ echo '<div class="modal fade" id="Modal'.$item["id"].'" tabindex="-1" role="dial
                     </div>
                 </div>
             </div>
-            </div>';
+    </div>';
 }

@@ -13,7 +13,7 @@
 	<meta name="apple-mobile-web-app-status-bar-style" content="#811062">
 	<!-- Windows Phone -->
 	<meta name="msapplication-navbutton-color" content="#811062">
-    <link rel="author" href="http://moqueguaturismo.gob.pe/humans.txt" type="text/plain" />
+    <link rel="author" href="http://turismo.munimoquegua.gob.pe/humans.txt" type="text/plain" />
     <meta name="DC.title" content="Moquegua" />
     <meta name="geo.placename" content="Moquegua" />
     <meta name="geo.region" content="PE-MOQ" />
@@ -27,6 +27,7 @@
     <link rel="stylesheet"href="<?php echo PUBLIC_; ?>css/ekko-lightbox.min.css" />
     <link rel="stylesheet"href="<?php echo PUBLIC_; ?>css/sweetalert.css" />
     <link rel="stylesheet"href="<?php echo PUBLIC_; ?>css/bootstrap.css">
+    <link rel="stylesheet"href="<?php echo PUBLIC_; ?>css/tether.min.css">
     <link rel="stylesheet"href="<?php echo PUBLIC_; ?>css/fullpage.min.css">
     <link rel="stylesheet"href="<?php echo PUBLIC_; ?>css/jquery.fancybox.min.css">
     <link rel="stylesheet"href="<?php echo PUBLIC_; ?>css/style.css" />

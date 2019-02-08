@@ -17,8 +17,10 @@
         </from>
         <nav id="menu-principal" class="collapse">
             <ul>
-                <li class="<?php if ( $clink=='inicio') { echo 'active'; } ?>"><a href="index.php">Inicio</a>
+                <li class="<?php if ( $clink=='inicio') { echo 'active'; } ?>">
+                    <a href="index.php">Inicio</a>
                 </li>
+
                <li class="dropdown">
                     <a class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown"
           aria-haspopup="true" aria-expanded="false">Inspiráte</a>

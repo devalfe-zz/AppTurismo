@@ -1,8 +1,11 @@
-<script src="<?php echo PUBLIC_; ?>js/app.js"></script>
-<script src="<?php echo PUBLIC_; ?>js/vendor/modernizr-2.8.3.min.js"></script>
+
+
+
 <script src="<?php echo PUBLIC_; ?>js/jquery.min.js"></script>
 <script src="<?php echo PUBLIC_; ?>js/bootstrap.min.js"></script>
 <script src="<?php echo PUBLIC_; ?>js/popper.min.js"></script>
+<script src="<?php echo PUBLIC_; ?>js/tether.min.js"></script>
+
 <script src="<?php echo PUBLIC_; ?>js/owl.carousel.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
@@ -97,8 +100,8 @@ $(document).ready(function() {
 </script>
 
 <script type="text/javascript">
-     $(window).load(function(){
-   $('#myModal').modal('show');
+    $(window).load(function(){
+        $('#myModal').modal('show');
     });
 </script>
 

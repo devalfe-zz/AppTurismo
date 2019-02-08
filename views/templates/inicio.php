@@ -12,7 +12,7 @@
             <!-- <img class="figure" src="<?php //echo PUBLIC_; ?>/images/fondo-principalx.jpg" data-color="lightblue" alt="slide1"> -->
             <div class="ParallaxVideo">
                 <video class="slider-video" playsinline autoplay muted loop>
-                    <source src="<?php echo PUBLIC_; ?>videos/iniciovideo.mp4" type="video/mp4">
+                    <source src="<?php echo $_ENV['API_IMG'] . PUBLIC_; ?>videos/iniciovideo.mp4" type="video/mp4">
 
                 </video>
             </div>
@@ -29,12 +29,12 @@
             </div>
         </div>
         <div class="carousel-item">
-            <img class="figure" src="<?php echo PUBLIC_; ?>images/slider.png" data-color="firebrick" alt="slide2">
+            <img class="figure" src="<?php echo $_ENV['API_IMG'] . PUBLIC_; ?>images/slider.png" data-color="firebrick" alt="slide2">
             <div class="carousel-caption carousel-style-center">
                 <div class="text-encabezado text-center">
                     <div class="container">
                         <a href="index.php" class="logo-moque hidden-xs-down hidden-md-down">
-                            <img src="<?php echo PUBLIC_; ?>images/moque.svg" alt="logomoquegua" class="wow fadeInUp" data-wow-duration="2s" data-wow-delay=".5s">
+                            <img src="<?php echo $_ENV['API_IMG'] . PUBLIC_; ?>images/moque.svg" alt="logomoquegua" class="wow fadeInUp" data-wow-duration="2s" data-wow-delay=".5s">
                         </a>
                         <h3 class="display-6 wow fadeInUp hidden-xs-down hidden-md-down " data-wow-duration="2s" data-wow-delay="1s">Valle hermoso y escondido allá entre áridos desiertos; risueño Edén, donde moran en consorcio sempiterno la blanca quietud del ánimo y el dulce contentamiento. La tibieza de sus auras, tu limpio cendal etéreo: - acoge el ardiente voto que, desde antípodo suelo, entusiasmado te envía en alas de raudo viento quien más amor te consagra. Sean de hoy más en copas de oro libado en el mundo entero; y que el alma que cobres, y el bien que para ti anhelo, jamás el helado soplo pueda robarte el tiempo</h3>
                         <p class="text-uppercase wow fadeInUp hidden-xs-down hidden-md-down " data-wow-duration="2s" data-wow-delay="2s">Al valle de Moquegua Juan Arguedas Prada </p>
@@ -43,12 +43,12 @@
             </div>
         </div>
         <div class="carousel-item">
-            <img class="figure" src="<?php echo PUBLIC_; ?>images/fondo-principalxxx.jpg" data-color="violet" alt="slide3">
+            <img class="figure" src="<?php echo $_ENV['API_IMG'] . PUBLIC_; ?>images/fondo-principalxxx.jpg" data-color="violet" alt="slide3">
             <div class="carousel-caption carousel-style-right">
                 <div class="text-encabezado text-center text-md-left">
                     <div class="container">
                         <a href="index.html" class="logo-moque hidden-xs-down hidden-md-down">
-                            <img src="<?php echo PUBLIC_; ?>images/moque.svg" alt="logomoquegua" class="wow fadeInUp" data-wow-duration="2s" data-wow-delay=".5s">
+                            <img src="<?php echo $_ENV['API_IMG'] . PUBLIC_; ?>images/moque.svg" alt="logomoquegua" class="wow fadeInUp" data-wow-duration="2s" data-wow-delay=".5s">
                         </a>
                         <h3 class="display-6 wow fadeInUp hidden-xs-down hidden-md-down" data-wow-duration="2s" data-wow-delay="1s">La esmeralda de un valle sobre la felpa lila. el puño gigantesco de un cerro vigila,el rumor misterioso del tiempo que pasó. Un cielo de cobalto. Y una ciudad dormida -tal como el maleficio que algún brujo le dio-, fingiendo ser el sueño de un hada perseguida por su pasión suicida, en la angustiosa huida, como en la figa de la Cenicienta, olvidó </h3>
                         <p class="text-uppercase wow fadeInU hidden-xs-down hidden-md-down" data-wow-duration="2s" data-wow-delay="2s">Ciudad dormida Roberto MacLean Estenós </p>
@@ -110,7 +110,7 @@
     </div>
 
 </section>
-   <?php include "views/templates/programa.php"?>
+<?php include "views/templates/programa.php"?>
 <section class="conozca-moquegua">
 
     <div class="container">
@@ -229,21 +229,21 @@ include "views/templates/actualidad.php"; ?>
         <h2 class="text-center font-weight-bold">Actividades por Interés</h2>
         <div class="owl-carousel">
             <a href="index.php?action=festividades"><h4>FESTIVIDADES</h4>
-				<img src="<?php echo PUBLIC_; ?>images/proyecto1.jpg" alt="Festividades"></a>
+				<img src="<?php echo $_ENV['API_IMG'] . PUBLIC_; ?>images/proyecto1.jpg" alt="Festividades"></a>
             <a href="index.php?action=folclore"><h4>FOLCLORE</h4>
-				<img src="<?php echo PUBLIC_; ?>images/proyecto3.jpg" alt="Folclore"></a>
+				<img src="<?php echo $_ENV['API_IMG'] . PUBLIC_; ?>images/proyecto3.jpg" alt="Folclore"></a>
             <a href="index.php?action=naturaleza"><h4>NATURALEZA</h4>
-				<img src="<?php echo PUBLIC_; ?>images/proyecto2.jpg" alt="Naturaleza"></a>
+				<img src="<?php echo $_ENV['API_IMG'] . PUBLIC_; ?>images/proyecto2.jpg" alt="Naturaleza"></a>
             <a href="index.php?action=arquitectura"><h4>ARQUITECTURA</h4>
-				<img src="<?php echo PUBLIC_; ?>images/proyecto1.jpg" alt="Arquitectura"></a>
+				<img src="<?php echo $_ENV['API_IMG'] . PUBLIC_; ?>images/proyecto1.jpg" alt="Arquitectura"></a>
             <a href="index.php?action=gastronomia&id=12"><h4>GASTRONOMÍA</h4>
-				<img src="<?php echo PUBLIC_; ?>images/food/cuy.jpg" alt="Gastronomía"></a>
+				<img src="<?php echo $_ENV['API_IMG'] . PUBLIC_; ?>images/food/cuy.jpg" alt="Gastronomía"></a>
             <a href="index.php?action=religiosidad"><h5>RELIGIOSIDAD Y MISTICISMO</h5>
-                <img src="<?php echo PUBLIC_; ?>images/proyecto4.jpg" alt="Religiosidad y Misticismo"></a>
+                <img src="<?php echo $_ENV['API_IMG'] . PUBLIC_; ?>images/proyecto4.jpg" alt="Religiosidad y Misticismo"></a>
             <a href="index.php?action=aventura"><h4>AVENTURA</h4>
-                <img src="<?php echo PUBLIC_; ?>images/slider.png" alt="Aventura"></a>
+                <img src="<?php echo $_ENV['API_IMG'] . PUBLIC_; ?>images/slider.png" alt="Aventura"></a>
             <a href="index.php?action=artesania"><h4>ARTESANIA</h4>
-                <img src="<?php echo PUBLIC_; ?>images/arte1.jpg" alt="Artesania"></a>
+                <img src="<?php echo $_ENV['API_IMG'] . PUBLIC_; ?>images/arte1.jpg" alt="Artesania"></a>
         </div>
     </div>
 </section>
