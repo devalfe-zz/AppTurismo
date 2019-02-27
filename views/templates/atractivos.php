@@ -34,6 +34,8 @@
             <div class="container">
                 <div class="row">';
                     $view = (new Atractivos)->serviceAtractivosController($_GET["page"]);
+                    //*var_dump($view);
+
                     $prev_page_url = $view['prev_page_url'];
                     $next_page_url = $view['next_page_url'];
                     $current_page = $view['current_page'];

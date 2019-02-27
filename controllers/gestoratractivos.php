@@ -41,8 +41,8 @@ class Atractivos {
     static public function serviceAtractivosController($page){
         if(preg_match('/^[0-9]+$/',$page)){
             $result = (new AtractivosModels)->serviceAtractivosModels($page);
-            $paginate = $result['first_page_url'];
-            //?var_dump ($result);
+            //*$paginate = $result['first_page_url'];
+            //*var_dump($result);
             return $result;
         }
 

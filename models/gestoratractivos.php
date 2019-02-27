@@ -28,15 +28,15 @@ class AtractivosModels{
             $data = json_decode($json,true);
             return $data;
         } */
+        $url =  $_ENV['API_BASE'].$_ENV['API_URL'].'atractivo?page='.$page;
+        $client = new \GuzzleHttp\Client();
+        $response = $client->request('GET', $url);
 
+        //*$response = $client->request('GET', 'http://guia-turistica.munimoquegua.gob.pe/public/api/v1/atractivo?page=1');
+        //?echo $response->getStatusCode(); # 200
+        //?echo $response->getHeaderLine('content-type'); # 'application/json; charset=utf8'
+        return json_decode($response->getBody(),200); # '{"id": 1420053, "name": "guzzle", ...}'
 
-        $client = new Client([
-            'base_uir' =>
-            $_ENV['API_BASE'] . $_ENV['API_URL'] . $api . '?page=' . $page,
-        ]);
-        $response = $client->request('GET', $page);
-        $data = json_decode($response->getBody(),200);
-        return $data;
 
     }
 
@@ -53,12 +53,12 @@ class AtractivosModels{
             $json = file_get_contents($url);
             $data = json_decode($json,true);
             return $data;
-        } */
-
+        }
+ */
 
         $client = new Client([
-            'base_uir' =>
-            $_ENV['API_BASE'].$_ENV['API_U R L'].'atractivo/' . $id,
+            'base_uri' =>
+            $_ENV['API_BASE'].$_ENV['API_URL'].'atractivo/'.$id,
         ]);
         $response = $client->request('GET', $id);
         $data = json_decode($response->getBody()->getContents(),true);
