@@ -1,6 +1,6 @@
 <?php
 $view = (new ServicioController)->ApiServices($_GET["id"]);
-var_dump($view);
+//var_dump($view);
 if (count($view)==0){
     $msg = '{"msg":"Datos no disponibles en la DB"}';
     $data = json_decode($msg, true);

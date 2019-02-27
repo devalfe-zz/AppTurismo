@@ -20,24 +20,21 @@
     <section class="py-2">
             <!-- <div class="container">
                 <div class="row">
-                    
                     <section class="grid">
                         <header>
                             <h3 class="text-center font-weight-bold">FESTIVIDADES</h3>
                             <p class="text-justify">Moquegua goza de asentamientos preincas e incas, aún en proceso de estudio. Los primeros pobladores se asentaron alrededor de los 12000 años. El primer grupo sedentario (los huaracanes) apareció en el 1000 a.C. Alrededor del 500 d.C. ocuparon el valle los Tiwanaku y los Wari, luego de su colapso surgieron dos grupos locales: los chiribayas (950-1350 d.C.) y los estuquiñas o cuchunas (1000-1475 d.C.). Este último fue integrado al Tawantinsuyo.</p>
-                        </header>                       
+                        </header>
                     </section>
-                    
-                    
-                </div>          
+                </div>
             </div> -->
             <div class="panels">
-                
+
                         <div class="panel panel1">
                             <p class="col-2 m-5" >Se encuentran a unos 10 min. al sureste de la ciudad, tomando la ruta a Toquepala, a unos 1500 m.s.n.m. El grupo de representaciones más interesante se emplaza en el centro de una cadena de colinas situados en Chen Chen. </p>
                             <p >LOS GEOGLIFOS DE CHEN CHEN</p>
                             <p class="col-2 m-5">Son representaciones zoomorfas (auquénidos), fitomorfas y antropomorfas que fueron construidas en las laderas de los cerros por la cultura Tiwanacu quienes emplearon dos técnicas: retirando la capa superficial del terreno o bien, adicionando piedras con diferente tonalidad al suelo, a manera de mosaico.</p>
-                            
+
                         </div>
                         <div class="panel panel2">
                             <p class="col-2 m-5">Se emplaza en el interior de lo que fue la antigua iglesia Matriz de Moquegua, en la plaza de armas de la ciudad. El museo exhibe piezas que datan desde los 12,000 años a.C. </p>
@@ -54,7 +51,7 @@
                             <p>CERRO BAÚL Y CERRO MEJÍA</p>
                             <p class="col-2 m-5">Esta imponente formación geológica atesora en su cima una ciudadela de filiación Tiwanacu-Wari. Frente al cerro Baúl se ubica el cerro Mejía, que guarda restos preincas e incas.</p>
                         </div>
-                        
+
              </div>
     </section>
 

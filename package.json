@@ -5,10 +5,12 @@
     "main": "./js/index.js",
     "scripts": {
         "devel": "webpack --watch",
-        "start": "webpack-dev-server --progress --colors",
-        "build": "webpack --config webpack.config.js",
-        "prod": "NODE_ENV=production npm run build",
-        "dev": "webpack-dev-server --watch --hot --colors"
+        "dev": "npm run development",
+        "development": "cross-env NODE_ENV=development webpack --watch --progress --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "cross-env NODE_ENV=development webpack --watch --progress --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "hot": "NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "production": "NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+
     },
     "repository": {
         "type": "git",

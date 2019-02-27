@@ -1,6 +1,3 @@
-
-
-
 <script src="<?php echo PUBLIC_; ?>js/jquery.min.js"></script>
 <script src="<?php echo PUBLIC_; ?>js/bootstrap.min.js"></script>
 <script src="<?php echo PUBLIC_; ?>js/popper.min.js"></script>
